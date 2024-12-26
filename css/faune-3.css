@@ -1,0 +1,276 @@
+/* screen - faune-3 */
+
+.faune-3 {
+  align-items: center;
+  background-image: url(../img/cadre.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 908px;
+  padding: 0.2px 18.0px;
+  width: 1280px;
+}
+
+.faune-3 .overlap-group1 {
+  height: 551px;
+  margin-right: 31.09px;
+  margin-top: 132px;
+  position: relative;
+  width: 1213px;
+}
+
+.faune-3 .overlap-group {
+  height: 542px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 1213px;
+}
+
+.faune-3 .orignal-2 {
+  align-items: center;
+  display: flex;
+  height: 232px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 271px;
+  width: 256px;
+}
+
+.faune-3 .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 223.9px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 247.45px;
+}
+
+.faune-3 .orignal-5.animate-enter10 {
+  animation: animate-enter10-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter10-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-3 .orignal-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .orignal-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 423px;
+  position: absolute;
+  top: 258px;
+  width: 333px;
+}
+
+.faune-3 .orignal-5-1.animate-enter13 {
+  animation: animate-enter13-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter13-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-3 .orignal-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .hiboux-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 983px;
+  position: absolute;
+  top: 109px;
+  width: 230px;
+}
+
+.faune-3 .hiboux-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 229.91px;
+}
+
+.faune-3 .hiboux-5.animate-enter14 {
+  animation: animate-enter14-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter14-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-3 .hiboux-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .rectangle-52 {
+  background-color: var(--alto);
+  border-radius: 33px;
+  cursor: pointer;
+  height: 542px;
+  left: 208px;
+  opacity: 0.88;
+  position: absolute;
+  top: 0;
+  width: 912px;
+}
+
+.faune-3 .surname {
+  cursor: pointer;
+  left: 254px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  width: 820px;
+}
+
+.faune-3 .hiboux-1 {
+  align-items: center;
+  display: flex;
+  height: 169px;
+  justify-content: center;
+  left: 19px;
+  position: absolute;
+  top: 0;
+  width: 189px;
+}
+
+.faune-3 .hiboux-5-1 {
+  cursor: pointer;
+  height: 168px;
+  margin-top: -1px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  width: 153px;
+}
+
+.faune-3 .hiboux-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .flex-row {
+  align-items: center;
+  display: flex;
+  margin-right: 15.0px;
+  min-width: 1197px;
+}
+
+.faune-3 .lapin-2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 240px;
+}
+
+.faune-3 .lapin-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 239.59px;
+}
+
+.faune-3 .lapin-5.animate-enter11 {
+  animation: animate-enter11-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter11-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-3 .lapin-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .renard-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 140px;
+  width: 394px;
+}
+
+.faune-3 .renard-3.animate-enter12 {
+  animation: animate-enter12-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter12-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-3 .renard-3:hover {
+  transform: scale(1.1);
+}
+
+.faune-3 .adobe-stock_313333036-4 {
+  height: 129px;
+  margin-bottom: 1.0px;
+  margin-left: 261px;
+  object-fit: cover;
+  width: 162px;
+}

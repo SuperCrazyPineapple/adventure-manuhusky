@@ -1,0 +1,88 @@
+/* screen - iphone-13-u38-14-7 */
+
+.iphone-13-u38-14-7 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  overflow: hidden;
+  width: 390px;
+}
+
+.iphone-13-u38-14-7 .shutterstock_7482725 {
+  height: 251px;
+  margin-right: -25px;
+  object-fit: cover;
+  width: 420px;
+}
+
+.iphone-13-u38-14-7 .la-faune-7 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: -4px;
+  min-width: 399px;
+}
+
+.iphone-13-u38-14-7 .overlap-group {
+  height: 342px;
+  position: relative;
+  width: 399px;
+}
+
+.iphone-13-u38-14-7 .group-6 {
+  align-items: center;
+  background-image: url(../img/cadre.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 342px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 399px;
+}
+
+.iphone-13-u38-14-7 .hiboux-8 {
+  cursor: pointer;
+  height: 55px;
+  margin-left: 184px;
+  margin-top: -95px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  width: 59px;
+}
+
+.iphone-13-u38-14-7 .hiboux-8:hover {
+  transform: scale(1.1);
+}
+
+.iphone-13-u38-14-7 .rectangle-55 {
+  background-color: var(--alto);
+  border-radius: 33px;
+  cursor: pointer;
+  height: 190px;
+  left: 61px;
+  opacity: 0.88;
+  position: absolute;
+  top: 33px;
+  width: 289px;
+}
+
+.iphone-13-u38-14-7 .surname {
+  cursor: pointer;
+  left: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  width: 243px;
+}
+
+.iphone-13-u38-14-7 .hibou-des-marais2_aa_new-scaled-1 {
+  height: 291px;
+  object-fit: cover;
+  width: 390px;
+}

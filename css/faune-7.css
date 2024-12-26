@@ -1,0 +1,303 @@
+/* screen - faune-7 */
+
+.faune-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 786px;
+  min-width: 1280px;
+}
+
+.faune-7 .overlap-group {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 908px;
+  margin-top: -61px;
+  position: relative;
+  width: 1280px;
+}
+
+.faune-7 .overlap-group1 {
+  height: 858px;
+  left: 16px;
+  position: absolute;
+  top: 50px;
+  width: 1215px;
+}
+
+.faune-7 .orignal-2 {
+  align-items: center;
+  display: flex;
+  height: 232px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 387px;
+  width: 256px;
+}
+
+.faune-7 .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 223.9px;
+  margin-left: 0;
+  margin-top: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 247.45px;
+}
+
+.faune-7 .orignal-5.animate-enter48 {
+  animation: animate-enter48-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter48-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-7 .orignal-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .lapin-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 72px;
+  position: absolute;
+  top: 636px;
+  width: 240px;
+}
+
+.faune-7 .lapin-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 239.59px;
+}
+
+.faune-7 .lapin-5.animate-enter49 {
+  animation: animate-enter49-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter49-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-7 .lapin-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .renard-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 440px;
+  position: absolute;
+  top: 615px;
+  width: 394px;
+}
+
+.faune-7 .renard-3.animate-enter50 {
+  animation: animate-enter50-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter50-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-7 .renard-3:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .orignal-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 425px;
+  position: absolute;
+  top: 410px;
+  width: 333px;
+}
+
+.faune-7 .orignal-5-1.animate-enter51 {
+  animation: animate-enter51-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter51-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-7 .orignal-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .hiboux-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 985px;
+  position: absolute;
+  top: 261px;
+  width: 230px;
+}
+
+.faune-7 .hiboux-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 229.91px;
+}
+
+.faune-7 .hiboux-5.animate-enter52 {
+  animation: animate-enter52-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter52-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-7 .hiboux-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .rectangle-35 {
+  background-color: var(--trendy-green);
+  height: 145px;
+  left: 300px;
+  opacity: 0.55;
+  width: 733px;
+}
+
+.faune-7 .dcouvrez-les-animau {
+  left: 357px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 477px;
+}
+
+.faune-7 .httpslottiefilescoma {
+  height: 92px;
+  left: 875px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 136px;
+}
+
+.faune-7 .rectangle-53 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 726px;
+  left: 210px;
+  opacity: 0.88;
+  width: 912px;
+}
+
+.faune-7 .adobe-stock_313333036-5 {
+  height: 129px;
+  left: 1053px;
+  object-fit: cover;
+  position: absolute;
+  top: 690px;
+  width: 162px;
+}
+
+.faune-7 .lapin-queue-blanch {
+  cursor: pointer;
+  left: 256px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  width: 820px;
+}
+
+.faune-7 .hiboux-1 {
+  align-items: center;
+  display: flex;
+  height: 169px;
+  justify-content: center;
+  left: 37px;
+  position: absolute;
+  top: 193px;
+  width: 189px;
+}
+
+.faune-7 .hiboux-5-1 {
+  cursor: pointer;
+  height: 168px;
+  margin-top: -1px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  width: 153px;
+}
+
+.faune-7 .hiboux-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-7 .rectangle {
+  border-radius: 33px;
+  position: absolute;
+  top: 0;
+}

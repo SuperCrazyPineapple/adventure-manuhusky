@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/faune-8.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="faune-8" />
+    <div class="container-center-horizontal">
+      <div class="faune-8 screen">
+        <div class="overlap-group">
+          <div class="orignal-2">
+            <img class="orignal-5 animate-enter53" src="img/orignal-5@2x.png" alt="orignal 5" />
+          </div>
+          <div class="lapin-2"><img class="lapin-5 animate-enter54" src="img/lapin-5-1@2x.png" alt="lapin 5" /></div>
+          <div class="renard-1"><img class="renard-3 animate-enter55" src="img/renard-3@2x.png" alt="renard 3" /></div>
+          <div class="orignal-1">
+            <img class="orignal-5-1 animate-enter56" src="img/orignal-5-1@2x.png" alt="orignal 5" />
+          </div>
+          <div class="hiboux-2">
+            <img class="hiboux-5 animate-enter57" src="img/hiboux-5-1@2x.png" alt="hiboux 5" />
+          </div>
+          <div class="rectangle-35 rectangle"></div>
+          <p class="dcouvrez-les-animau originalsurfer-normal-white-33px">
+            Découvrez les animaux que vous pourriez rencontrer lors de votre balade
+          </p>
+          <img
+            class="httpslottiefilescoma"
+            src="img/https---lottiefiles-com-animations-animal-paws-fymvk1rkom-1.gif"
+            alt="https://lottiefiles.com/animations/animal-paws-fYMVK1rkOm"
+          />
+          <a href="javascript:history.back()"> <div class="rectangle-53 rectangle"></div></a
+          ><a href="javascript:history.back()"
+            ><h1 class="surname originalsurfer-normal-white-40px">
+              <span class="originalsurfer-normal-black-40px">Le Renard roux<br /></span
+              ><span class="originalsurfer-normal-black-37px"><br /></span
+              ><span class="originalsurfer-normal-trendy-green-37px"
+                >Saviez-vous que le Renard roux est l&#39;un des carnivores les plus adaptés aux différents habitats du
+                Québec ? Avec son pelage rouge vif et ses oreilles pointues, il est non seulement agile, mais aussi un
+                chasseur rusé. Il utilise une méthode de chasse unique en sautant en hauteur pour attraper ses proies,
+                comme les rongeurs, et peut s&#39;adapter à une large gamme de conditions climatiques. Ce renard est
+                souvent vu errant dans les champs et forêts, mais il s&#39;approche aussi des zones urbaines à la
+                recherche de nourriture.</span
+              >
+            </h1>
+          </a>
+        </div>
+        <div class="hiboux-1"><img class="hiboux-5-1" src="img/hiboux-5-2@2x.png" alt="hiboux 5" /></div>
+        <img class="adobe-stock_313333036-6" src="img/adobestock-313333036-5@2x.png" alt="AdobeStock_313333036 6" />
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>

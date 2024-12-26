@@ -1,0 +1,85 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Original+Surfer:400|Oswald:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/6765d6eaed3772c7a398f523.6765d6eaed3772c7a398f526.ionL22X.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.renard-3 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 394.37px;
+}
+
+.orignal-5-1 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 332.84px;
+}
+
+.hiboux8 {
+  cursor: pointer;
+  height: 67px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  width: 63px;
+}
+
+.rectangle-51 {
+  align-self: flex-end;
+  background-color: var(--alto);
+  border-radius: 33px;
+  cursor: pointer;
+  height: 726px;
+  margin-bottom: -463px;
+  opacity: 0.88;
+  width: 912px;
+}

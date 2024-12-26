@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/faune-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="faune-1" />
+    <div class="container-center-horizontal">
+      <div class="faune-1 screen">
+        <div class="overlap-group">
+          <div class="orignal-2">
+            <img class="orignal-5 animate-enter" src="img/orignal-5@2x.png" alt="orignal 5" />
+          </div>
+          <div class="lapin-2"><img class="lapin-5 animate-enter1" src="img/lapin-5-1@2x.png" alt="lapin 5" /></div>
+          <div class="renard-1"><img class="renard-3 animate-enter2" src="img/renard-3@2x.png" alt="renard 3" /></div>
+          <div class="orignal-1">
+            <img class="orignal-5-1 animate-enter3" src="img/orignal-5-1@2x.png" alt="orignal 5" />
+          </div>
+          <div class="hiboux-2"><img class="hiboux-5 animate-enter4" src="img/hiboux-5-1@2x.png" alt="hiboux 5" /></div>
+          <div class="rectangle-35 rectangle"></div>
+          <p class="dcouvrez-les-animau originalsurfer-normal-white-33px">
+            Découvrez les animaux que vous pourriez rencontrer lors de votre balade
+          </p>
+          <img
+            class="httpslottiefilescoma"
+            src="img/https---lottiefiles-com-animations-animal-paws-fymvk1rkom-1.gif"
+            alt="https://lottiefiles.com/animations/animal-paws-fYMVK1rkOm"
+          />
+          <a href="javascript:history.back()"> <div class="rectangle-53 rectangle"></div></a
+          ><a href="javascript:history.back()"
+            ><h1 class="lapin-queue-blanch originalsurfer-normal-white-40px">
+              <span class="originalsurfer-normal-black-40px">Lapin à queue blanche<br /></span
+              ><span class="originalsurfer-normal-trendy-green-36px"
+                ><br />Saviez-vous que le Lapin à queue blanche est l&#39;un des animaux les plus rapides du Québec ?
+                Bien que souvent timide et discret, ce lapin peut atteindre des vitesses allant jusqu&#39;à 60 km/h pour
+                échapper à ses prédateurs. Sa fameuse queue blanche, qui se relève lorsqu&#39;il court, sert de signal
+                d&#39;alarme pour les autres lapins. Contrairement à d&#39;autres espèces de lapins, le lapin à queue
+                blanche préfère vivre dans des zones dégagées, comme les champs, les forêts et les haies.</span
+              >
+            </h1>
+          </a>
+        </div>
+        <div class="hiboux-1"><img class="hiboux-5-1" src="img/hiboux-5-2@2x.png" alt="hiboux 5" /></div>
+        <img class="adobe-stock_313333036-5" src="img/adobestock-313333036-5@2x.png" alt="AdobeStock_313333036 5" />
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>

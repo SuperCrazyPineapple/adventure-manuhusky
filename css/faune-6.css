@@ -1,0 +1,265 @@
+/* screen - faune-6 */
+
+.faune-6 {
+  align-items: flex-start;
+  background-image: url(../img/cadre.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 908.24px;
+  min-width: 1280px;
+  padding: 0.2px 18.0px;
+}
+
+.faune-6 .overlap-group {
+  height: 858px;
+  margin-top: 49.76px;
+  position: relative;
+  width: 1224px;
+}
+
+.faune-6 .orignal-2 {
+  align-items: center;
+  display: flex;
+  height: 232px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 362px;
+  width: 256px;
+}
+
+.faune-6 .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 223.9px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 247.45px;
+}
+
+.faune-6 .orignal-5.animate-enter44 {
+  animation: animate-enter44-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter44-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-6 .orignal-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-6 .lapin-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 16px;
+  position: absolute;
+  top: 636px;
+  width: 240px;
+}
+
+.faune-6 .lapin-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 239.59px;
+}
+
+.faune-6 .lapin-5.animate-enter45 {
+  animation: animate-enter45-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter45-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-6 .lapin-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-6 .renard-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 396px;
+  position: absolute;
+  top: 636px;
+  width: 394px;
+}
+
+.faune-6 .renard-3.animate-enter46 {
+  animation: animate-enter46-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter46-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-6 .renard-3:hover {
+  transform: scale(1.1);
+}
+
+.faune-6 .hiboux-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 983px;
+  position: absolute;
+  top: 200px;
+  width: 230px;
+}
+
+.faune-6 .hiboux-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 229.91px;
+}
+
+.faune-6 .hiboux-5.animate-enter47 {
+  animation: animate-enter47-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter47-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-6 .hiboux-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-6 .rectangle-35 {
+  background-color: var(--trendy-green);
+  height: 145px;
+  left: 298px;
+  opacity: 0.55;
+  width: 733px;
+}
+
+.faune-6 .clic-sur-les-animaux {
+  left: 361px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 477px;
+}
+
+.faune-6 .httpslottiefilescoma {
+  height: 92px;
+  left: 873px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 136px;
+}
+
+.faune-6 .hiboux-1 {
+  align-items: center;
+  display: flex;
+  height: 169px;
+  justify-content: center;
+  left: 19px;
+  position: absolute;
+  top: 82px;
+  width: 189px;
+}
+
+.faune-6 .hiboux-5-1 {
+  cursor: pointer;
+  height: 168px;
+  margin-top: -1px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  width: 153px;
+}
+
+.faune-6 .hiboux-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-6 .adobe-stock_313333036-5 {
+  height: 129px;
+  left: 1062px;
+  object-fit: cover;
+  position: absolute;
+  top: 698px;
+  width: 162px;
+}
+
+.faune-6 .rectangle-54 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 726px;
+  left: 190px;
+  opacity: 0.88;
+  width: 912px;
+}
+
+.faune-6 .l-orignal-saviez-vou {
+  cursor: pointer;
+  left: 254px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 66px;
+  width: 820px;
+}
+
+.faune-6 .rectangle {
+  border-radius: 33px;
+  position: absolute;
+  top: 0;
+}

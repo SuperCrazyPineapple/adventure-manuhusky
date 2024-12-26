@@ -1,0 +1,268 @@
+/* screen - faune-5 */
+
+.faune-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 786px;
+  min-width: 1280px;
+}
+
+.faune-5 .overlap-group {
+  background-image: url(../img/cadre.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 908px;
+  margin-top: -61px;
+  position: relative;
+  width: 1280px;
+}
+
+.faune-5 .overlap-group1 {
+  height: 750px;
+  left: 55px;
+  position: absolute;
+  top: 143px;
+  width: 1199px;
+}
+
+.faune-5 .orignal-2 {
+  align-items: center;
+  display: flex;
+  height: 232px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 282px;
+  width: 256px;
+}
+
+.faune-5 .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 223.9px;
+  margin-left: 0;
+  margin-top: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 247.45px;
+}
+
+.faune-5 .orignal-5.animate-enter24 {
+  animation: animate-enter24-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter24-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-5 .orignal-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-5 .lapin-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 528px;
+  width: 240px;
+}
+
+.faune-5 .lapin-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 239.59px;
+}
+
+.faune-5 .lapin-5.animate-enter25 {
+  animation: animate-enter25-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter25-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-5 .lapin-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-5 .renard-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 386px;
+  position: absolute;
+  top: 514px;
+  width: 394px;
+}
+
+.faune-5 .renard-3.animate-enter26 {
+  animation: animate-enter26-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter26-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-5 .renard-3:hover {
+  transform: scale(1.1);
+}
+
+.faune-5 .orignal-1 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 386px;
+  position: absolute;
+  top: 317px;
+  width: 333px;
+}
+
+.faune-5 .orignal-5-1.animate-enter27 {
+  animation: animate-enter27-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter27-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-5 .orignal-5-1:hover {
+  transform: scale(1.1);
+}
+
+.faune-5 .hiboux-2 {
+  align-items: center;
+  display: flex;
+  height: 222px;
+  justify-content: center;
+  left: 946px;
+  position: absolute;
+  top: 168px;
+  width: 230px;
+}
+
+.faune-5 .hiboux-5 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 229.91px;
+}
+
+.faune-5 .hiboux-5.animate-enter28 {
+  animation: animate-enter28-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter28-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-5 .hiboux-5:hover {
+  transform: scale(1.1);
+}
+
+.faune-5 .le-harfang-des-neige {
+  left: 223px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 820px;
+}
+
+.faune-5 .span1 {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+}
+
+.faune-5 .adobe-stock_313333036-3 {
+  height: 129px;
+  left: 1037px;
+  object-fit: cover;
+  position: absolute;
+  top: 586px;
+  width: 162px;
+}
+
+.faune-5 .hiboux-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 18px;
+  height: 169px;
+  justify-content: flex-end;
+  left: 37px;
+  min-width: 189px;
+  position: absolute;
+  top: 193px;
+}
+
+.faune-5 .hiboux-5-1 {
+  cursor: pointer;
+  height: 168px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  width: 153px;
+}
+
+.faune-5 .hiboux-5-1:hover {
+  transform: scale(1.1);
+}
