@@ -32,37 +32,24 @@
 }
 
 .iphone-13-u38-14-6 .group-6 {
-  align-items: flex-start;
+  align-items: center;
   background-image: url(../img/cadre.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
-  gap: 121px;
   height: 342px;
+  justify-content: center;
   left: 0;
-  min-width: 399px;
-  padding: 96px 50.7px;
   position: absolute;
   top: 0;
-}
-
-.iphone-13-u38-14-6 .orignal-8 {
-  align-self: flex-end;
-  cursor: pointer;
-  height: 80px;
-  margin-bottom: 13.69px;
-  object-fit: cover;
-  transition: all 0.5s ease-in-out;
-  width: 90px;
-}
-
-.iphone-13-u38-14-6 .orignal-8:hover {
-  transform: scale(1.1);
+  width: 399px;
 }
 
 .iphone-13-u38-14-6 .hiboux-8 {
   cursor: pointer;
   height: 55px;
+  margin-left: 184px;
+  margin-top: -95px;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
   width: 59px;
@@ -76,23 +63,38 @@
   background-color: var(--alto);
   border-radius: 33px;
   cursor: pointer;
-  height: 225px;
-  left: 61px;
+  height: 288px;
+  left: 45px;
   opacity: 0.88;
   position: absolute;
-  top: 33px;
-  width: 289px;
+  top: 24px;
+  width: 333px;
 }
 
 .iphone-13-u38-14-6 .l-orignal-saviez-vou {
   cursor: pointer;
-  left: 93px;
+  left: 60px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 45px;
-  width: 225px;
+  top: 28px;
+  width: 299px;
+}
+
+.iphone-13-u38-14-6 .orignal-8 {
+  cursor: pointer;
+  height: 59px;
+  left: 287px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  transition: all 0.5s ease-in-out;
+  width: 86px;
+}
+
+.iphone-13-u38-14-6 .orignal-8:hover {
+  transform: scale(1.1);
 }
 
 .iphone-13-u38-14-6 .img_-orignal-1 {

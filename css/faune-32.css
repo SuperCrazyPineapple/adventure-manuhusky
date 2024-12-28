@@ -17,46 +17,37 @@
   width: 1280px;
 }
 
-.faune-32 .overlap-group1 {
-  height: 741px;
-  left: 16px;
-  position: absolute;
-  top: 141px;
-  width: 1215px;
-}
-
-.faune-32 .orignal-2 {
+.faune-32 .orignal-1 {
   align-items: center;
   display: flex;
-  height: 232px;
+  height: 222px;
   justify-content: center;
-  left: 0;
+  left: 441px;
   position: absolute;
-  top: 287px;
-  width: 256px;
+  top: 460px;
+  width: 333px;
 }
 
 .faune-32 .orignal-5 {
   cursor: pointer;
   display: block;
-  height: 223.9px;
+  height: 222px;
   margin-left: 0;
-  margin-top: 0;
   object-fit: cover;
   opacity: 0;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
-  width: 247.45px;
+  width: 332.84px;
 }
 
-.faune-32 .orignal-5.animate-enter39 {
-  animation: animate-enter39-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-32 .orignal-5.animate-enter10 {
+  animation: animate-enter10-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter39-frames {
+@keyframes animate-enter10-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -69,127 +60,45 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
-.faune-32 .lapin-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 90px;
-  position: absolute;
-  top: 519px;
-  width: 240px;
-}
-
-.faune-32 .lapin-5 {
+.faune-32 .rectangle-52 {
+  background-color: var(--alto);
+  border-radius: 33px;
   cursor: pointer;
-  display: block;
-  height: 222px;
-  margin-left: 0;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 239.59px;
-}
-
-.faune-32 .lapin-5.animate-enter40 {
-  animation: animate-enter40-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter40-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-32 .lapin-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-32 .renard-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 427px;
+  height: 542px;
+  left: 226px;
+  opacity: 0.88;
   position: absolute;
-  top: 495px;
-  width: 394px;
+  top: 141px;
+  width: 912px;
 }
 
-.faune-32 .renard-3.animate-enter41 {
-  animation: animate-enter41-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter41-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-32 .renard-3:hover {
-  transform: scale(1.1);
-}
-
-.faune-32 .orignal-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 425px;
+.faune-32 .surname {
+  cursor: pointer;
+  left: 272px;
+  letter-spacing: 0;
+  line-height: normal;
   position: absolute;
-  top: 319px;
-  width: 333px;
-}
-
-.faune-32 .orignal-5-1.animate-enter42 {
-  animation: animate-enter42-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter42-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-32 .orignal-5-1:hover {
-  transform: scale(1.1);
+  text-align: center;
+  top: 175px;
+  width: 820px;
 }
 
 .faune-32 .hiboux-2 {
   align-items: center;
   display: flex;
-  height: 222px;
+  height: 114px;
   justify-content: center;
-  left: 985px;
+  left: 994px;
   position: absolute;
-  top: 170px;
-  width: 230px;
+  top: 102px;
+  width: 118px;
 }
 
 .faune-32 .hiboux-5 {
   cursor: pointer;
   display: block;
   height: 222px;
-  margin-left: 0;
+  margin-left: -0.1px;
   object-fit: cover;
   opacity: 0;
   transform: translate(0, 25px);
@@ -197,14 +106,14 @@ transform: translate(0,0);
   width: 229.91px;
 }
 
-.faune-32 .hiboux-5.animate-enter43 {
-  animation: animate-enter43-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-32 .hiboux-5.animate-enter11 {
+  animation: animate-enter11-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter43-frames {
+@keyframes animate-enter11-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -215,60 +124,4 @@ transform: translate(0,0);
 
 .faune-32 .hiboux-5:hover {
   transform: scale(1.1);
-}
-
-.faune-32 .rectangle-52 {
-  background-color: var(--alto);
-  border-radius: 33px;
-  cursor: pointer;
-  height: 542px;
-  left: 210px;
-  opacity: 0.88;
-  position: absolute;
-  top: 0;
-  width: 912px;
-}
-
-.faune-32 .surname {
-  cursor: pointer;
-  left: 256px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 34px;
-  width: 820px;
-}
-
-.faune-32 .hiboux-1 {
-  align-items: center;
-  display: flex;
-  height: 169px;
-  justify-content: center;
-  left: 37px;
-  position: absolute;
-  top: 91px;
-  width: 189px;
-}
-
-.faune-32 .hiboux-5-1 {
-  cursor: pointer;
-  height: 168px;
-  margin-top: -1px;
-  object-fit: cover;
-  transition: all 0.5s ease;
-  width: 153px;
-}
-
-.faune-32 .hiboux-5-1:hover {
-  transform: scale(1.1);
-}
-
-.faune-32 .adobe-stock_313333036-4 {
-  height: 129px;
-  left: 1069px;
-  object-fit: cover;
-  position: absolute;
-  top: 753px;
-  width: 162px;
 }

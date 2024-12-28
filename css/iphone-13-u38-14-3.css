@@ -53,36 +53,36 @@
   transform: scale(1.1);
 }
 
-.iphone-13-u38-14-3 .adobe-stock_313333036-7 {
-  height: 41px;
-  left: 335px;
-  object-fit: cover;
-  position: absolute;
-  top: 292px;
-  width: 52px;
-}
-
 .iphone-13-u38-14-3 .rectangle-55 {
   background-color: var(--alto);
   border-radius: 33px;
   cursor: pointer;
-  height: 244px;
-  left: 66px;
+  height: 291px;
+  left: 30px;
   opacity: 0.88;
   position: absolute;
   top: 33px;
-  width: 289px;
+  width: 342px;
 }
 
 .iphone-13-u38-14-3 .lapin-queue-blanch {
   cursor: pointer;
-  left: 85px;
+  left: 46px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 56px;
-  width: 243px;
+  top: 42px;
+  width: 311px;
+}
+
+.iphone-13-u38-14-3 .adobe-stock_313333036-7 {
+  height: 41px;
+  left: 305px;
+  object-fit: cover;
+  position: absolute;
+  top: 38px;
+  width: 52px;
 }
 
 .iphone-13-u38-14-3 .x51852323107_fe934e47c2_b-1 {

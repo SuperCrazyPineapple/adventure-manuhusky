@@ -2,61 +2,53 @@
 
 .faune-5 {
   align-items: flex-start;
-  display: flex;
-  height: 786px;
-  min-width: 1280px;
-}
-
-.faune-5 .overlap-group {
   background-image: url(../img/cadre.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 908px;
-  margin-top: -61px;
+  display: flex;
+  height: 908.24px;
+  min-width: 1280px;
+  padding: 23px 88px;
+}
+
+.faune-5 .overlap-group {
+  height: 798px;
+  margin-left: 138px;
   position: relative;
-  width: 1280px;
+  width: 966px;
 }
 
-.faune-5 .overlap-group1 {
-  height: 750px;
-  left: 55px;
-  position: absolute;
-  top: 143px;
-  width: 1199px;
-}
-
-.faune-5 .orignal-2 {
+.faune-5 .orignal-1 {
   align-items: center;
   display: flex;
-  height: 232px;
+  height: 222px;
   justify-content: center;
-  left: 0;
+  left: 215px;
   position: absolute;
-  top: 282px;
-  width: 256px;
+  top: 376px;
+  width: 333px;
 }
 
 .faune-5 .orignal-5 {
   cursor: pointer;
   display: block;
-  height: 223.9px;
+  height: 222px;
   margin-left: 0;
-  margin-top: 0;
   object-fit: cover;
   opacity: 0;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
-  width: 247.45px;
+  width: 332.84px;
 }
 
-.faune-5 .orignal-5.animate-enter24 {
-  animation: animate-enter24-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-5 .orignal-5.animate-enter8 {
+  animation: animate-enter8-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter24-frames {
+@keyframes animate-enter8-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -69,68 +61,75 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
-.faune-5 .lapin-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  top: 528px;
-  width: 240px;
+.faune-5 .rectangle-35 {
+  background-color: var(--trendy-green);
+  height: 145px;
+  left: 90px;
+  opacity: 0.55;
+  width: 733px;
 }
 
-.faune-5 .lapin-5 {
+.faune-5 .dcouvrez-les-animau {
+  left: 147px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 477px;
+}
+
+.faune-5 .httpslottiefilescoma {
+  height: 92px;
+  left: 665px;
+  object-fit: cover;
+  position: absolute;
+  top: 51px;
+  width: 136px;
+}
+
+.faune-5 .rectangle-53 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 771px;
+  left: 0;
+  opacity: 0.88;
+  width: 912px;
+}
+
+.faune-5 .surname {
+  cursor: pointer;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 62px;
+  width: 820px;
+}
+
+.faune-5 .renard-3 {
   cursor: pointer;
   display: block;
-  height: 222px;
-  margin-left: 0;
+  height: 161px;
+  left: 680px;
   object-fit: cover;
   opacity: 0;
+  position: absolute;
+  top: 0;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
-  width: 239.59px;
+  width: 286px;
 }
 
-.faune-5 .lapin-5.animate-enter25 {
-  animation: animate-enter25-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-5 .renard-3.animate-enter9 {
+  animation: animate-enter9-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter25-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-5 .lapin-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-5 .renard-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 386px;
-  position: absolute;
-  top: 514px;
-  width: 394px;
-}
-
-.faune-5 .renard-3.animate-enter26 {
-  animation: animate-enter26-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter26-frames {
+@keyframes animate-enter9-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -143,126 +142,8 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
-.faune-5 .orignal-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 386px;
+.faune-5 .rectangle {
+  border-radius: 33px;
   position: absolute;
-  top: 317px;
-  width: 333px;
-}
-
-.faune-5 .orignal-5-1.animate-enter27 {
-  animation: animate-enter27-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter27-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-5 .orignal-5-1:hover {
-  transform: scale(1.1);
-}
-
-.faune-5 .hiboux-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 946px;
-  position: absolute;
-  top: 168px;
-  width: 230px;
-}
-
-.faune-5 .hiboux-5 {
-  cursor: pointer;
-  display: block;
-  height: 222px;
-  margin-left: 0;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 229.91px;
-}
-
-.faune-5 .hiboux-5.animate-enter28 {
-  animation: animate-enter28-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter28-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-5 .hiboux-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-5 .le-harfang-des-neige {
-  left: 223px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 820px;
-}
-
-.faune-5 .span1 {
-  color: var(--black);
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xxxl);
-  font-weight: 400;
-}
-
-.faune-5 .adobe-stock_313333036-3 {
-  height: 129px;
-  left: 1037px;
-  object-fit: cover;
-  position: absolute;
-  top: 586px;
-  width: 162px;
-}
-
-.faune-5 .hiboux-1 {
-  align-items: flex-start;
-  display: flex;
-  gap: 18px;
-  height: 169px;
-  justify-content: flex-end;
-  left: 37px;
-  min-width: 189px;
-  position: absolute;
-  top: 193px;
-}
-
-.faune-5 .hiboux-5-1 {
-  cursor: pointer;
-  height: 168px;
-  object-fit: cover;
-  transition: all 0.5s ease;
-  width: 153px;
-}
-
-.faune-5 .hiboux-5-1:hover {
-  transform: scale(1.1);
+  top: 27px;
 }

@@ -41,33 +41,19 @@
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
-  gap: 11px;
   height: 342px;
-  justify-content: flex-end;
+  justify-content: center;
   left: 0;
-  min-width: 399px;
-  padding: 9px 78px;
   position: absolute;
   top: 0;
-}
-
-.iphone-13-u38-14-2 .renard-5 {
-  align-self: flex-end;
-  cursor: pointer;
-  height: 51px;
-  object-fit: cover;
-  transition: all 0.5s ease-in-out;
-  width: 93px;
-}
-
-.iphone-13-u38-14-2 .renard-5:hover {
-  transform: scale(1.1);
+  width: 399px;
 }
 
 .iphone-13-u38-14-2 .hiboux-8 {
   cursor: pointer;
   height: 55px;
-  margin-bottom: 95.0px;
+  margin-left: 184px;
+  margin-top: -95px;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
   width: 59px;
@@ -81,21 +67,36 @@
   background-color: var(--alto);
   border-radius: 33px;
   cursor: pointer;
-  height: 273px;
-  left: 64px;
+  height: 304px;
+  left: 41px;
   opacity: 0.88;
   position: absolute;
-  top: 21px;
-  width: 289px;
+  top: 14px;
+  width: 325px;
 }
 
 .iphone-13-u38-14-2 .surname {
   cursor: pointer;
-  left: 85px;
+  left: 56px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 56px;
-  width: 243px;
+  top: 22px;
+  width: 303px;
+}
+
+.iphone-13-u38-14-2 .renard-5 {
+  cursor: pointer;
+  height: 51px;
+  left: 281px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  transition: all 0.5s ease-in-out;
+  width: 93px;
+}
+
+.iphone-13-u38-14-2 .renard-5:hover {
+  transform: scale(1.1);
 }

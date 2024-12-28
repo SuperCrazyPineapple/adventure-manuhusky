@@ -62,7 +62,7 @@
   background-color: var(--alto);
   border-radius: 33px;
   cursor: pointer;
-  height: 190px;
+  height: 271px;
   left: 61px;
   opacity: 0.88;
   position: absolute;
@@ -79,6 +79,21 @@
   text-align: center;
   top: 56px;
   width: 243px;
+}
+
+.iphone-13-u38-14-7 .hiboux-9 {
+  cursor: pointer;
+  height: 79px;
+  left: 286px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  transition: all 0.5s ease-in-out;
+  width: 83px;
+}
+
+.iphone-13-u38-14-7 .hiboux-9:hover {
+  transform: scale(1.1);
 }
 
 .iphone-13-u38-14-7 .hibou-des-marais2_aa_new-scaled-1 {

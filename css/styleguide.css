@@ -6,9 +6,9 @@
   --trendy-green: #768b1c;
   --white: #ffffff;
  
-  --font-size-l: 15px;
-  --font-size-m: 11px;
-  --font-size-xl: 17px;
+  --font-size-l: 17px;
+  --font-size-m: 15px;
+  --font-size-xl: 27px;
   --font-size-xxl: 33px;
   --font-size-xxxl: 36px;
   --font-size-xxxxl: 37px;
@@ -17,14 +17,6 @@
   --font-family-original_surfer: "Original Surfer", Helvetica;
   --font-family-oswald: "Oswald", Helvetica;
 }
-.originalsurfer-normal-white-33px {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .originalsurfer-normal-white-40px {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxxxxl);
@@ -40,6 +32,22 @@
   font-weight: 400;
 }
 
+.originalsurfer-normal-white-33px {
+  color: var(--white);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.originalsurfer-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .originalsurfer-normal-trendy-green-36px {
   color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
@@ -48,14 +56,7 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-11px {
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.originalsurfer-normal-trendy-green-11px {
+.originalsurfer-normal-trendy-green-15px {
   color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-m);
@@ -63,10 +64,17 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-black-11px {
-  color: var(--black);
+.originalsurfer-normal-white-15px {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.originalsurfer-normal-white-17px {
+  color: var(--white);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
@@ -94,10 +102,10 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-black-13px {
-  color: var(--black);
+.originalsurfer-normal-trendy-green-17px {
+  color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
-  font-size: 13px;
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
@@ -110,16 +118,7 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-17px {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.originalsurfer-normal-black-15px {
-  color: var(--black);
+.originalsurfer-normal-white-17px-2 {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-l);
   font-style: normal;

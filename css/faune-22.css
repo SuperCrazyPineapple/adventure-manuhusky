@@ -17,45 +17,37 @@
   width: 1280px;
 }
 
-.faune-22 .overlap-group1 {
-  height: 854px;
-  left: 37px;
-  position: absolute;
-  top: 50px;
-  width: 1194px;
-}
-
-.faune-22 .orignal-2 {
+.faune-22 .orignal-1 {
   align-items: center;
   display: flex;
-  height: 232px;
+  height: 222px;
   justify-content: center;
-  left: 0;
+  left: 441px;
   position: absolute;
-  top: 362px;
-  width: 256px;
+  top: 460px;
+  width: 333px;
 }
 
 .faune-22 .orignal-5 {
   cursor: pointer;
   display: block;
-  height: 223.9px;
+  height: 222px;
   margin-left: 0;
   object-fit: cover;
   opacity: 0;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
-  width: 247.45px;
+  width: 332.84px;
 }
 
-.faune-22 .orignal-5.animate-enter29 {
-  animation: animate-enter29-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-22 .orignal-5.animate-enter6 {
+  animation: animate-enter6-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter29-frames {
+@keyframes animate-enter6-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -68,37 +60,85 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
+.faune-22 .rectangle-35 {
+  background-color: var(--trendy-green);
+  height: 145px;
+  left: 316px;
+  opacity: 0.55;
+  width: 733px;
+}
+
+.faune-22 .dcouvrez-les-animau {
+  left: 373px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 68px;
+  width: 477px;
+}
+
+.faune-22 .httpslottiefilescoma {
+  height: 92px;
+  left: 891px;
+  object-fit: cover;
+  position: absolute;
+  top: 74px;
+  width: 136px;
+}
+
+.faune-22 .rectangle-52 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 668px;
+  left: 226px;
+  opacity: 0.88;
+  width: 912px;
+}
+
+.faune-22 .surname {
+  cursor: pointer;
+  left: 277px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  width: 820px;
+}
+
 .faune-22 .lapin-2 {
   align-items: center;
   display: flex;
-  height: 222px;
+  height: 111px;
   justify-content: center;
-  left: 39px;
+  left: 1018px;
   position: absolute;
-  top: 632px;
-  width: 240px;
+  top: 19px;
+  width: 120px;
 }
 
 .faune-22 .lapin-5 {
   cursor: pointer;
   display: block;
-  height: 222px;
-  margin-left: 0;
+  height: 167px;
+  margin-left: -43px;
+  margin-top: 94px;
   object-fit: cover;
   opacity: 0;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
-  width: 239.59px;
+  width: 181px;
 }
 
-.faune-22 .lapin-5.animate-enter30 {
-  animation: animate-enter30-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-22 .lapin-5.animate-enter7 {
+  animation: animate-enter7-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter30-frames {
+@keyframes animate-enter7-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -111,193 +151,8 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
-.faune-22 .renard-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 419px;
-  position: absolute;
-  top: 594px;
-  width: 394px;
-}
-
-.faune-22 .renard-3.animate-enter31 {
-  animation: animate-enter31-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter31-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-22 .renard-3:hover {
-  transform: scale(1.1);
-}
-
-.faune-22 .orignal-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 404px;
-  position: absolute;
-  top: 410px;
-  width: 333px;
-}
-
-.faune-22 .orignal-5-1.animate-enter32 {
-  animation: animate-enter32-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter32-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-22 .orignal-5-1:hover {
-  transform: scale(1.1);
-}
-
-.faune-22 .hiboux-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 964px;
-  position: absolute;
-  top: 261px;
-  width: 230px;
-}
-
-.faune-22 .hiboux-5 {
-  cursor: pointer;
-  display: block;
-  height: 222px;
-  margin-left: 0;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 229.91px;
-}
-
-.faune-22 .hiboux-5.animate-enter33 {
-  animation: animate-enter33-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter33-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-22 .hiboux-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-22 .rectangle-35 {
-  background-color: var(--trendy-green);
-  height: 145px;
-  left: 279px;
-  opacity: 0.55;
-  width: 733px;
-}
-
-.faune-22 .dcouvrez-les-animau {
-  left: 336px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  width: 477px;
-}
-
-.faune-22 .httpslottiefilescoma {
-  height: 92px;
-  left: 854px;
-  object-fit: cover;
-  position: absolute;
-  top: 24px;
-  width: 136px;
-}
-
-.faune-22 .rectangle-52 {
-  background-color: var(--alto);
-  cursor: pointer;
-  height: 668px;
-  left: 189px;
-  opacity: 0.88;
-  width: 912px;
-}
-
-.faune-22 .surname {
-  cursor: pointer;
-  left: 240px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 51px;
-  width: 820px;
-}
-
-.faune-22 .hiboux-1 {
-  align-items: center;
-  display: flex;
-  height: 169px;
-  justify-content: center;
-  left: 37px;
-  position: absolute;
-  top: 193px;
-  width: 189px;
-}
-
-.faune-22 .hiboux-5-1 {
-  cursor: pointer;
-  height: 168px;
-  margin-top: -1px;
-  object-fit: cover;
-  transition: all 0.5s ease;
-  width: 153px;
-}
-
-.faune-22 .hiboux-5-1:hover {
-  transform: scale(1.1);
-}
-
-.faune-22 .adobe-stock_313333036-4 {
-  height: 129px;
-  left: 1084px;
-  object-fit: cover;
-  position: absolute;
-  top: 718px;
-  width: 162px;
-}
-
 .faune-22 .rectangle {
   border-radius: 33px;
   position: absolute;
-  top: 0;
+  top: 50px;
 }

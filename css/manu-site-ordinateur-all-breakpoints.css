@@ -10,7 +10,7 @@
   width: 389px;
 }
 
-.iphone-13-u38-14-1 .overlap-group10 {
+.iphone-13-u38-14-1 .overlap-group9 {
   height: 801px;
   margin-left: -1px;
   position: relative;
@@ -20,10 +20,10 @@
 .iphone-13-u38-14-1 .baniere-about {
   align-items: flex-start;
   background-color: var(--trendy-green);
-  height: 107px;
+  height: 110px;
   opacity: 0.88;
   padding: 0 1px;
-  top: 694px;
+  top: 691px;
   width: 390px;
 }
 
@@ -36,7 +36,7 @@
   height: 107px;
   justify-content: flex-end;
   min-width: 387px;
-  padding: 11px 28px;
+  padding: 12px 28px;
 }
 
 .iphone-13-u38-14-1 .name {
@@ -66,7 +66,7 @@
 }
 
 .iphone-13-u38-14-1 .navbar {
-  align-items: flex-start;
+  align-items: flex-end;
   background: linear-gradient(180deg, rgb(205, 241, 49) 0%, rgb(145.17, 170.66, 34.7) 68.96%, rgb(118.24, 139, 28.26) 100%);
   display: flex;
   height: 86px;
@@ -77,18 +77,9 @@
 }
 
 .iphone-13-u38-14-1 .overlap-group7 {
-  height: 86px;
+  height: 83px;
   position: relative;
   width: 393px;
-}
-
-.iphone-13-u38-14-1 .logo {
-  height: 82px;
-  left: 287px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 85px;
 }
 
 .iphone-13-u38-14-1 .adventure-manu-husky {
@@ -101,14 +92,15 @@
   line-height: normal;
   position: absolute;
   text-shadow: 0px 4px 4px #00000040;
-  top: 14px;
+  top: 11px;
   width: 135px;
 }
 
 .iphone-13-u38-14-1 .frame-38 {
+  gap: 155px;
   left: 0;
   position: absolute;
-  top: 3px;
+  top: 0;
   width: 393px;
 }
 
@@ -125,17 +117,24 @@
   width: 79px;
 }
 
+.iphone-13-u38-14-1 .manu-logo-2-1 {
+  height: 75px;
+  margin-top: 2px;
+  object-fit: cover;
+  width: 75px;
+}
+
 .iphone-13-u38-14-1 .about {
   align-items: flex-end;
   display: flex;
   height: 519px;
   margin-left: -1px;
-  padding: 19px 0;
+  padding: 1px 0;
   width: 390px;
 }
 
 .iphone-13-u38-14-1 .overlap-group5 {
-  height: 469px;
+  height: 487px;
   margin-left: 1px;
   position: relative;
   width: 389px;
@@ -150,8 +149,8 @@
   width: 389px;
 }
 
-.iphone-13-u38-14-1 .emmanuel-paingaud {
-  color: transparent;
+.iphone-13-u38-14-1 .avec-plus-de-30-ans {
+  color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
   font-size: 13px;
   font-weight: 400;
@@ -160,15 +159,15 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 252px;
+  top: 227px;
   width: 326px;
 }
 
-.iphone-13-u38-14-1 .span-1 {
-  color: var(--trendy-green);
+.iphone-13-u38-14-1 .span1 {
+  font-size: 16px;
 }
 
-.iphone-13-u38-14-1 .overlap-group9 {
+.iphone-13-u38-14-1 .overlap-group11 {
   height: 788px;
   margin-left: -1px;
   position: relative;
@@ -279,10 +278,6 @@ transform: translate(0,0);
 }
 
 .iphone-13-u38-14-1 .forfait-dcouverte {
-  color: transparent;
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
   left: 29px;
   letter-spacing: 0;
   line-height: normal;
@@ -292,11 +287,21 @@ transform: translate(0,0);
   width: 335px;
 }
 
-.iphone-13-u38-14-1 .span3 {
-  color: #eff3f6;
+.iphone-13-u38-14-1 .span1-1 {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.iphone-13-u38-14-1 .overlap-group11 {
+.iphone-13-u38-14-1 .span3 {
+  color: #eff3f6;
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+}
+
+.iphone-13-u38-14-1 .overlap-group10 {
   height: 1006px;
   margin-left: -5px;
   position: relative;
@@ -332,6 +337,14 @@ transform: translate(0,0);
   margin-top: 7.0px;
   min-height: 305px;
   width: 108px;
+}
+
+.iphone-13-u38-14-1 .hiboux8 {
+  cursor: pointer;
+  height: 67px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  width: 63px;
 }
 
 .iphone-13-u38-14-1 .hiboux8:hover {
@@ -429,129 +442,117 @@ transform: translate(0,0);
   width: 101px;
 }
 
-.iphone-13-u38-14-1 .overlap-group3 {
+.iphone-13-u38-14-1 .overlap-group-container {
+  align-items: flex-end;
   background-image: url(../img/traineau-a-chiens-canada-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 575px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
   left: 4px;
+  min-height: 575px;
+  padding: 7px 14px;
   position: absolute;
   top: 0;
   width: 395px;
 }
 
+.iphone-13-u38-14-1 .overlap-group1 {
+  height: 395px;
+  margin-top: 11px;
+  position: relative;
+  width: 366px;
+}
+
 .iphone-13-u38-14-1 .habillez {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 19px;
-  left: 15px;
-  min-height: 390px;
+  left: 0;
+  min-height: 395px;
   position: absolute;
-  top: 35px;
-  width: 365px;
+  top: 0;
+  width: 366px;
 }
 
 .iphone-13-u38-14-1 .rectangle-36 {
-  height: 51px;
-  width: 363px;
+  height: 66px;
+  margin-right: 2.0px;
+  width: 364px;
 }
 
 .iphone-13-u38-14-1 .overlap-group {
-  height: 320px;
-  margin-left: 34.79px;
+  border-radius: 33px;
+  height: 310px;
+  margin-left: 10.0px;
   position: relative;
-  width: 156px;
+  width: 306px;
 }
 
 .iphone-13-u38-14-1 .rectangle-40 {
   background-color: var(--alto);
   border-radius: 33px;
-  height: 308px;
+  height: 310px;
   left: 0;
   opacity: 0.55;
   position: absolute;
   top: 0;
-  width: 156px;
+  width: 306px;
 }
 
 .iphone-13-u38-14-1 .habillez-vous-pour-a {
-  left: 1px;
+  left: 8px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 20px;
-  width: 153px;
+  top: 8px;
+  width: 277px;
 }
 
-.iphone-13-u38-14-1 .span-2 {
+.iphone-13-u38-14-1 .span2 {
   color: var(--white);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-m);
   font-weight: 400;
 }
 
-.iphone-13-u38-14-1 .overlap-group1 {
-  border-radius: 33px;
-  height: 282px;
-  left: 228px;
-  position: absolute;
-  top: 106px;
-  width: 128px;
-}
-
-.iphone-13-u38-14-1 .rectangle-41 {
-  background-color: var(--alto);
-  border-radius: 33px;
-  height: 282px;
-  left: 0;
-  opacity: 0.55;
-  position: absolute;
-  top: 0;
-  width: 128px;
-}
-
-.iphone-13-u38-14-1 .apportez-des-essenti {
-  left: 1px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  width: 120px;
-}
-
 .iphone-13-u38-14-1 .conseils-et-astuces {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: 16px;
-  font-weight: 400;
-  left: 39px;
+  left: 16px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 43px;
+  top: 13px;
   width: 334px;
 }
 
+.iphone-13-u38-14-1 .overlap-group2-1 {
+  align-self: center;
+  height: 144px;
+  margin-left: 11.0px;
+  position: relative;
+  width: 306px;
+}
+
 .iphone-13-u38-14-1 .rectangle-42 {
-  height: 96px;
-  left: 70px;
+  height: 143px;
+  left: 0;
   position: absolute;
-  top: 424px;
-  width: 275px;
+  top: 1px;
+  width: 306px;
 }
 
 .iphone-13-u38-14-1 .choisissez-des-chaus {
-  left: 83px;
+  left: 2px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 434px;
-  width: 242px;
+  top: 0;
+  width: 292px;
 }
 
 .iphone-13-u38-14-1 .overlap-group8 {
@@ -562,40 +563,38 @@ transform: translate(0,0);
 }
 
 .iphone-13-u38-14-1 .footer {
+  align-items: flex-end;
   background: linear-gradient(180deg, rgb(118.24, 139, 28.26) 0%, rgb(205, 241, 49) 100%);
   background-color: transparent;
   display: flex;
+  flex-direction: row;
   height: 150px;
+  justify-content: flex-start;
   left: 4px;
   overflow: hidden;
+  padding: 0 2px;
   position: absolute;
   top: 784px;
   width: 393px;
 }
 
+.iphone-13-u38-14-1 .overlap-group-1 {
+  height: 215px;
+  margin-bottom: -82.14px;
+  margin-left: 20px;
+  position: relative;
+  width: 369px;
+}
+
 .iphone-13-u38-14-1 .group-9 {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 59px;
-  margin-left: 26px;
-  margin-top: 8px;
-  min-height: 224.14px;
-  width: 365px;
-}
-
-.iphone-13-u38-14-1 .flex-row {
-  align-items: center;
-  display: flex;
-  gap: 49px;
-  margin-right: 4.0px;
-  min-width: 361px;
-}
-
-.iphone-13-u38-14-1 .logo-1 {
-  height: 110px;
-  object-fit: cover;
-  width: 107px;
+  gap: 68px;
+  height: 215px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 357px;
 }
 
 .iphone-13-u38-14-1 .title {
@@ -603,10 +602,10 @@ transform: translate(0,0);
   -webkit-text-fill-color: transparent;
   background: radial-gradient(50% 50% at 50% 50%, rgb(205, 241, 49) 0%, rgb(118.24, 139, 28.26) 100%);
   background-clip: text;
+  height: 92px;
   letter-spacing: 0;
   line-height: normal;
-  margin-bottom: 0.29px;
-  min-height: 92px;
+  margin-left: 148px;
   text-fill-color: transparent;
   text-shadow: 0px 4px 4px #00000040;
   width: 205px;
@@ -617,12 +616,20 @@ transform: translate(0,0);
   font-family: var(--font-family-original_surfer);
   font-size: 13px;
   font-weight: 400;
+  height: 55.14px;
   letter-spacing: 0;
   line-height: normal;
-  margin-right: 5.53px;
-  min-height: 55px;
   text-align: center;
-  width: 343px;
+  width: 343.47px;
+}
+
+.iphone-13-u38-14-1 .manu-logo-2-2 {
+  height: 84px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 87px;
 }
 
 .iphone-13-u38-14-1 .overlap-group1-1 {
@@ -632,7 +639,7 @@ transform: translate(0,0);
   background-size: cover;
   display: flex;
   flex-direction: column;
-  gap: 81px;
+  gap: 104px;
   left: 5px;
   min-height: 708px;
   padding: 26px 21px;
@@ -647,7 +654,7 @@ transform: translate(0,0);
   width: 323px;
 }
 
-.iphone-13-u38-14-1 .overlap-group-1 {
+.iphone-13-u38-14-1 .overlap-group-2 {
   border-radius: 33px;
   height: 216px;
   position: relative;
@@ -666,12 +673,12 @@ transform: translate(0,0);
 }
 
 .iphone-13-u38-14-1 .adresse-rte-de {
-  left: 21px;
+  left: 30px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 20px;
+  top: 10px;
   width: 303px;
 }
 
@@ -703,6 +710,20 @@ transform: translate(0,0);
   width: 64px;
 }
 
+.iphone-13-u38-14-1 .x2025-crazy-pineapp-1 {
+  color: var(--white);
+  font-family: var(--font-family-oswald);
+  font-size: 11px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 896px;
+  width: 271px;
+}
+
 .iphone-13-u38-14-1 .baniere {
   display: flex;
   left: 0;
@@ -721,42 +742,153 @@ transform: translate(0,0);
 /* screen - manu-site-ordinateur-all-breakpoints */
 
 .manu-site-ordinateur-all-breakpoints {
-  align-items: flex-end;
   background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  min-width: 1280px;
-  position: relative;
+  min-height: 6895px;
+  overflow: hidden;
+  width: 100%;
 }
 
-.manu-site-ordinateur-all-breakpoints .frame-39-1 {
-  background: linear-gradient(180deg, rgb(205, 241, 49) 0%, rgb(118.24, 139, 28.26) 100%);
-  height: 150px;
-  position: relative;
-  width: 1280px;
+.manu-site-ordinateur-all-breakpoints .frame-35 {
+  align-items: flex-end;
+  background-image: url(../img/frame-35-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 2293px;
+  height: 1050px;
+  margin-left: -28px;
+  min-width: 1308px;
 }
 
-.manu-site-ordinateur-all-breakpoints .flex-row-2 {
-  align-items: center;
-  display: flex;
-  left: 46px;
-  min-width: 1133px;
-  position: relative;
+.manu-site-ordinateur-all-breakpoints .faune {
+  align-items: flex-start;
+  background-image: url(../img/cadre.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  gap: 5175px;
+  height: 908px;
+  justify-content: flex-end;
+  margin-bottom: -4913.24px;
+  margin-left: -3545px;
+  padding: 50px 0;
 }
 
-.manu-site-ordinateur-all-breakpoints .frame-39-2 {
-  display: flex;
-  height: 116px;
-  margin-bottom: 4.0px;
-  width: 426px;
+.manu-site-ordinateur-all-breakpoints .overlap-group2-3 {
+  height: 726px;
+  width: 912px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-35-2 {
+  left: 108px;
+}
+
+.manu-site-ordinateur-all-breakpoints .clic-sur-les-animaux-1 {
+  left: 171px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-54 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 726px;
+  left: 0;
+  opacity: 0.88;
+  top: 0;
+  width: 912px;
+}
+
+.manu-site-ordinateur-all-breakpoints .l-orignal-saviez-vou {
+  cursor: pointer;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 66px;
+  width: 820px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group1-2 {
+  align-self: flex-end;
+  height: 142px;
+  margin-bottom: 89.07px;
+  position: relative;
+  width: 158px;
 }
 
 .manu-site-ordinateur-all-breakpoints .httpslottiefilescoma-5 {
-  height: 70px;
-  margin-left: 12px;
-  margin-top: 7px;
+  height: 92px;
+  left: 0;
   object-fit: cover;
-  width: 79px;
+  position: absolute;
+  top: 28px;
+  width: 136px;
+}
+
+.manu-site-ordinateur-all-breakpoints .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 142px;
+  left: 0;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 158px;
+}
+
+.manu-site-ordinateur-all-breakpoints .orignal-5.bp3-animate-enter {
+  animation: bp3-animate-enter-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp3-animate-enter-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.manu-site-ordinateur-all-breakpoints .orignal-5:hover {
+  transform: scale(1.1);
+}
+
+.manu-site-ordinateur-all-breakpoints .flex-col-1 {
+  align-items: flex-start;
+  margin-bottom: -5930.82px;
+  min-height: 6989px;
+  width: 1280px;
+}
+
+.manu-site-ordinateur-all-breakpoints .navbar-2 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(205, 241, 49) 0%, rgb(145.17, 170.66, 34.7) 68.96%, rgb(118.24, 139, 28.26) 100%);
+  display: flex;
+  height: 178px;
+  justify-content: flex-end;
+  min-width: 1280px;
+  padding: 11px 133px;
+}
+
+.manu-site-ordinateur-all-breakpoints .frame-38-2 {
+  align-items: center;
+  display: flex;
+  height: 116px;
+  justify-content: center;
+  width: 256px;
+}
+
+.manu-site-ordinateur-all-breakpoints .httpslottiefilescoma-6 {
+  height: 107px;
+  margin-left: -14px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 218px;
 }
 
 .manu-site-ordinateur-all-breakpoints .adventure-manu-husky-2 {
@@ -766,47 +898,27 @@ transform: translate(0,0);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 39px;
+  margin-left: 20px;
+  margin-top: 4.0px;
   min-height: 110px;
   text-shadow: 0px 4px 4px #00000040;
-  width: 259px;
+  width: 263px;
 }
 
-.manu-site-ordinateur-all-breakpoints .logo-4 {
-  height: 148px;
-  margin-left: 258px;
+.manu-site-ordinateur-all-breakpoints .manu-logo-2-3-1 {
+  align-self: flex-end;
+  height: 149px;
+  margin-left: 226px;
   object-fit: cover;
-  width: 151px;
+  width: 149px;
 }
 
-.manu-site-ordinateur-all-breakpoints .frame-35 {
-  background-image: url(../img/frame-35-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 988px;
-  position: relative;
-  width: 1280px;
-}
-
-.manu-site-ordinateur-all-breakpoints .about-2::-webkit-scrollbar {
-  display: none;
-  width: 0;
-}
-
-.manu-site-ordinateur-all-breakpoints .about-2 {
-  align-self: stretch;
-  background-color: var(--white);
-  height: 977px;
-  overflow-y: scroll;
-  position: relative;
-  width: 100%;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group-3 {
+.manu-site-ordinateur-all-breakpoints .overlap-group9-1 {
   background-image: url(../img/2-1.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 977px;
+  margin-top: 913px;
   position: relative;
   width: 1280px;
 }
@@ -815,14 +927,15 @@ transform: translate(0,0);
   background-color: var(--alto);
   height: 894px;
   left: 240px;
+  opacity: 0.55;
   top: 19px;
   width: 800px;
 }
 
-.manu-site-ordinateur-all-breakpoints .emmanuel-paingaud-2 {
+.manu-site-ordinateur-all-breakpoints .emmanuel-paingaud-1 {
   color: var(--black);
   font-family: var(--font-family-original_surfer);
-  font-size: 27px;
+  font-size: var(--font-size-xl);
   font-weight: 400;
   left: 320px;
   letter-spacing: 0;
@@ -833,142 +946,46 @@ transform: translate(0,0);
   width: 700px;
 }
 
-.manu-site-ordinateur-all-breakpoints .forfait-1 {
-  align-self: stretch;
-  background-image: url(../img/pexels-hoffman11-19393715-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 910.22px;
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-2 {
+  height: 3671px;
   position: relative;
-  width: 100%;
+  width: 1280px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group1-3 {
-  border-radius: 33px;
-  height: 813px;
-  left: 650px;
-  position: absolute;
-  top: 45px;
-  width: 523px;
-}
-
-.manu-site-ordinateur-all-breakpoints .rectangle-29 {
-  background-color: var(--alto);
-  height: 813px;
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-3 {
+  height: 2760px;
   left: 0;
-  top: 0;
-  width: 523px;
-}
-
-.manu-site-ordinateur-all-breakpoints .forfait-dcouverte-2 {
-  color: transparent;
-  font-family: var(--font-family-original_surfer);
-  font-size: 25px;
-  font-weight: 400;
-  left: 40px;
-  letter-spacing: 0;
-  line-height: normal;
   position: absolute;
-  text-align: center;
-  top: 58px;
-  width: 443px;
+  top: 910px;
+  width: 1280px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span0 {
-  color: var(--trendy-green);
-}
-
-.manu-site-ordinateur-all-breakpoints .span1-1 {
-  color: var(--black);
-}
-
-.manu-site-ordinateur-all-breakpoints .span2-1 {
-  color: var(--coconut);
-}
-
-.manu-site-ordinateur-all-breakpoints .x05-2 {
-  display: block;
-  height: 404px;
-  left: 39px;
-  object-fit: cover;
-  opacity: 0;
-  position: absolute;
-  top: 253px;
-  transform: translate(25px, 0);
-  width: 462px;
-}
-
-.manu-site-ordinateur-all-breakpoints .x05-2.bp3-animate-enter {
-  animation: bp3-animate-enter-frames 0.50s ease-in-out 0.00s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(25px, 0);
-}
-
-@keyframes bp3-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.manu-site-ordinateur-all-breakpoints .conseil {
-  align-self: stretch;
-  background-image: url(../img/traineau-a-chiens-canada-1-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 935px;
-  position: relative;
-  width: 100%;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group5-2 {
-  border-radius: 33px;
-  height: 130px;
-  left: 231px;
-  position: absolute;
-  top: 47px;
-  width: 921px;
-}
-
-.manu-site-ordinateur-all-breakpoints .rectangle-32 {
-  background-color: var(--trendy-green);
-  height: 130px;
-  left: 0;
-  top: 0;
-  width: 921px;
-}
-
-.manu-site-ordinateur-all-breakpoints .conseils-et-astuces-2 {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: 44px;
-  font-weight: 400;
-  left: 39px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 19px;
-  width: 864px;
-}
-
-.manu-site-ordinateur-all-breakpoints .flex-row-3 {
+.manu-site-ordinateur-all-breakpoints .overlap-group4-2 {
   align-items: flex-start;
+  background-image: url(../img/1016837293082565358-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
   display: flex;
-  gap: 26px;
-  height: 666px;
-  left: 15px;
-  min-width: 1243px;
+  gap: 104px;
+  height: 918px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1280px;
+  padding: 119.2px 83px;
   position: absolute;
-  top: 238px;
+  top: 1843px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group6-1 {
-  border-radius: 33px;
-  height: 666px;
+.manu-site-ordinateur-all-breakpoints .rectangle-39-1 {
+  background-color: var(--alto);
+  height: 647px;
+  margin-top: 6.38px;
+  width: 608px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group-4 {
+  align-self: flex-end;
+  height: 673px;
   position: relative;
   width: 399px;
 }
@@ -977,133 +994,43 @@ transform: translate(0,0);
   background-color: var(--alto);
   height: 666px;
   left: 0;
+  opacity: 0.55;
   top: 0;
   width: 399px;
 }
 
-.manu-site-ordinateur-all-breakpoints .habillez-vous-pour-a-2 {
-  left: 23px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  width: 356px;
-}
-
-.manu-site-ordinateur-all-breakpoints .flex-col-1 {
-  align-items: flex-start;
-  gap: 31px;
-  min-height: 666px;
-  width: 818px;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group-container-1 {
-  align-items: flex-start;
-  display: flex;
-  gap: 61px;
-  min-width: 818px;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group4-2 {
-  border-radius: 33px;
-  height: 382px;
-  position: relative;
-  width: 399px;
-}
-
-.manu-site-ordinateur-all-breakpoints .rectangle-33 {
-  background-color: var(--alto);
-  height: 382px;
-  left: 0;
-  top: 0;
-  width: 399px;
-}
-
-.manu-site-ordinateur-all-breakpoints .apportez-des-essenti-2 {
-  left: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 18px;
-  width: 350px;
-}
-
-.manu-site-ordinateur-all-breakpoints .span1-2 {
+.manu-site-ordinateur-all-breakpoints .planifiez-votre-aven-1 {
   color: var(--black);
   font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: 400;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group2-2 {
-  align-items: flex-end;
-  background-image: url(../img/rectangle-34-1@2x.png);
-  background-size: 100% 100%;
-  display: flex;
-  height: 382px;
-  justify-content: flex-end;
-  min-width: 358px;
-  padding: 29.2px 28px;
-}
-
-.manu-site-ordinateur-all-breakpoints .choisissez-des-chaus-2 {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 315px;
-  text-align: center;
-  width: 295px;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group3-1 {
-  border-radius: 33px;
-  height: 253px;
-  margin-left: 1px;
-  position: relative;
-  width: 817px;
-}
-
-.manu-site-ordinateur-all-breakpoints .rectangle-31 {
-  background-color: var(--alto);
-  height: 253px;
-  left: 0;
-  top: 0;
-  width: 817px;
-}
-
-.manu-site-ordinateur-all-breakpoints .prparez-vous-mental-1 {
-  left: 58px;
+  left: 28px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 14px;
-  width: 749px;
+  top: 33px;
+  width: 343px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span2-2 {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.manu-site-ordinateur-all-breakpoints .faune-principale {
+.manu-site-ordinateur-all-breakpoints .flex-row-1 {
+  align-items: flex-end;
   background-image: url(../img/cadre.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 908.24px;
-  position: relative;
-  width: 1280px;
+  display: flex;
+  gap: 42px;
+  height: 908px;
+  left: 0;
+  min-width: 1280px;
+  padding: 0.2px 18px;
+  position: absolute;
+  top: 935px;
 }
 
 .manu-site-ordinateur-all-breakpoints .flex-col-2 {
   align-items: flex-end;
-  left: 18px;
   min-height: 776px;
-  position: absolute;
-  top: 132px;
   width: 256px;
 }
 
@@ -1141,7 +1068,7 @@ transform: translate(0,0);
   width: 256px;
 }
 
-.manu-site-ordinateur-all-breakpoints .orignal-5 {
+.manu-site-ordinateur-all-breakpoints .orignal-5-1 {
   cursor: pointer;
   display: block;
   height: 223.9px;
@@ -1154,7 +1081,7 @@ transform: translate(0,0);
   width: 247.45px;
 }
 
-.manu-site-ordinateur-all-breakpoints .orignal-5.bp3-animate-enter1 {
+.manu-site-ordinateur-all-breakpoints .orignal-5-1.bp3-animate-enter1 {
   animation: bp3-animate-enter1-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
@@ -1170,7 +1097,7 @@ transform: translate(0,0);
 }
 }
 
-.manu-site-ordinateur-all-breakpoints .orignal-5:hover {
+.manu-site-ordinateur-all-breakpoints .orignal-5-1:hover {
   transform: scale(1.1);
 }
 
@@ -1218,14 +1145,11 @@ transform: translate(0,0);
 
 .manu-site-ordinateur-all-breakpoints .flex-col-3 {
   align-items: flex-end;
-  left: 316px;
   min-height: 858px;
-  position: absolute;
-  top: 50px;
   width: 926px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group7-1 {
+.manu-site-ordinateur-all-breakpoints .overlap-group-5 {
   align-self: flex-start;
   border-radius: 33px;
   height: 145px;
@@ -1233,28 +1157,15 @@ transform: translate(0,0);
   width: 733px;
 }
 
-.manu-site-ordinateur-all-breakpoints .rectangle-35-2 {
-  background-color: var(--trendy-green);
-  border-radius: 33px;
-  height: 145px;
+.manu-site-ordinateur-all-breakpoints .rectangle-35-3 {
   left: 0;
-  opacity: 0.55;
-  position: absolute;
-  top: 0;
-  width: 733px;
 }
 
-.manu-site-ordinateur-all-breakpoints .clic-sur-les-animaux-1 {
+.manu-site-ordinateur-all-breakpoints .clic-sur-les-animaux-2 {
   left: 63px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 9px;
-  width: 477px;
 }
 
-.manu-site-ordinateur-all-breakpoints .httpslottiefilescoma-6 {
+.manu-site-ordinateur-all-breakpoints .httpslottiefilescoma-7 {
   height: 92px;
   left: 575px;
   object-fit: cover;
@@ -1305,7 +1216,7 @@ transform: translate(0,0);
   transform: scale(1.1);
 }
 
-.manu-site-ordinateur-all-breakpoints .flex-row-4 {
+.manu-site-ordinateur-all-breakpoints .flex-row-2 {
   align-items: center;
   display: flex;
   gap: 272px;
@@ -1319,6 +1230,18 @@ transform: translate(0,0);
   display: flex;
   justify-content: center;
   width: 394px;
+}
+
+.manu-site-ordinateur-all-breakpoints .renard-3 {
+  cursor: pointer;
+  display: block;
+  height: 222px;
+  margin-left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 394.37px;
 }
 
 .manu-site-ordinateur-all-breakpoints .renard-3.bp3-animate-enter3 {
@@ -1349,57 +1272,354 @@ transform: translate(0,0);
   width: 162px;
 }
 
-.manu-site-ordinateur-all-breakpoints .reservation-1 {
-  align-self: stretch;
-  background-image: url(../img/1016837293082565358-1.png);
+.manu-site-ordinateur-all-breakpoints .overlap-group6-1 {
+  align-items: flex-start;
+  background-image: url(../img/traineau-a-chiens-canada-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 917.69px;
-  position: relative;
-  width: 100%;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group8-1 {
-  height: 673px;
-  left: 754px;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  left: 0;
+  min-height: 935px;
+  padding: 31px 15px;
   position: absolute;
-  top: 126px;
-  width: 399px;
+  top: 0;
+  width: 1280px;
 }
 
-.manu-site-ordinateur-all-breakpoints .planifiez-votre-aven-1 {
-  color: var(--black);
+.manu-site-ordinateur-all-breakpoints .overlap-group3-1 {
+  align-self: center;
+  border-radius: 33px;
+  height: 130px;
+  margin-left: 103.0px;
+  margin-top: 16px;
+  position: relative;
+  width: 921px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-32 {
+  background-color: var(--trendy-green);
+  height: 130px;
+  left: 0;
+  opacity: 0.55;
+  top: 0;
+  width: 921px;
+}
+
+.manu-site-ordinateur-all-breakpoints .conseils-et-astuces-2 {
+  color: var(--white);
   font-family: var(--font-family-original_surfer);
-  font-size: 27px;
+  font-size: 44px;
   font-weight: 400;
-  left: 28px;
+  left: 39px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 33px;
+  top: 9px;
+  width: 864px;
+}
+
+.manu-site-ordinateur-all-breakpoints .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 26px;
+  min-width: 1243px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group4-3 {
+  border-radius: 33px;
+  height: 666px;
+  position: relative;
+  width: 399px;
+}
+
+.manu-site-ordinateur-all-breakpoints .habillez-vous-pour-a-2 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 356px;
+}
+
+.manu-site-ordinateur-all-breakpoints .flex-col-4 {
+  align-items: flex-start;
+  gap: 31px;
+  min-height: 666px;
+  width: 818px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-4 {
+  align-items: flex-start;
+  display: flex;
+  gap: 61px;
+  min-width: 818px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group2-4 {
+  height: 382px;
+  width: 399px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-33 {
+  background-color: var(--alto);
+  height: 382px;
+  left: 0;
+  opacity: 0.55;
+  top: 0;
+  width: 399px;
+}
+
+.manu-site-ordinateur-all-breakpoints .apportez-des-essenti-1 {
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 350px;
+}
+
+.manu-site-ordinateur-all-breakpoints .span1-3 {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group-6 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-34-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 382px;
+  justify-content: flex-end;
+  min-width: 358px;
+  padding: 29.2px 28px;
+}
+
+.manu-site-ordinateur-all-breakpoints .choisissez-des-chaus-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 315px;
+  text-align: center;
+  width: 295px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group1-3 {
+  border-radius: 33px;
+  height: 253px;
+  margin-left: 1px;
+  position: relative;
+  width: 817px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-31 {
+  background-color: var(--alto);
+  height: 253px;
+  left: 0;
+  opacity: 0.55;
+  top: 0;
+  width: 817px;
+}
+
+.manu-site-ordinateur-all-breakpoints .prparez-vous-mental-1 {
+  left: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 749px;
+}
+
+.manu-site-ordinateur-all-breakpoints .span2-3 {
+  color: var(--white);
+  font-family: var(--font-family-original_surfer);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group7-1 {
+  align-items: flex-start;
+  background-image: url(../img/pexels-hoffman11-19393715-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 139px;
+  height: 910px;
+  left: 0;
+  min-width: 1280px;
+  padding: 45px 39px;
+  position: absolute;
+  top: 0;
+}
+
+.manu-site-ordinateur-all-breakpoints .x05-2 {
+  align-self: center;
+  display: block;
+  height: 404px;
+  margin-bottom: 0.22px;
+  object-fit: cover;
+  opacity: 0;
+  transform: translate(25px, 0);
+  width: 462px;
+}
+
+.manu-site-ordinateur-all-breakpoints .x05-2.bp3-animate-enter5 {
+  animation: bp3-animate-enter5-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes bp3-animate-enter5-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group-7 {
+  height: 813px;
+  position: relative;
+  width: 533px;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-29 {
+  background-color: var(--alto);
+  height: 813px;
+  left: 10px;
+  opacity: 0.55;
+  top: 0;
+  width: 523px;
+}
+
+.manu-site-ordinateur-all-breakpoints .forfait-dcouverte-2 {
+  color: transparent;
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  width: 523px;
+}
+
+.manu-site-ordinateur-all-breakpoints .span0-1 {
+  color: var(--trendy-green);
+}
+
+.manu-site-ordinateur-all-breakpoints .span1-4 {
+  color: var(--black);
+  font-size: 25px;
+}
+
+.manu-site-ordinateur-all-breakpoints .span2-4 {
+  color: var(--coconut);
+  font-size: 25px;
+}
+
+.manu-site-ordinateur-all-breakpoints .span3-2 {
+  color: var(--white);
+  font-size: 25px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group10-1 {
+  height: 1250px;
+  position: relative;
+  width: 1280px;
+}
+
+.manu-site-ordinateur-all-breakpoints .footer-2 {
+  align-items: flex-end;
+  background: conic-gradient(from 180deg at 50% 50%, rgb(118.24, 139, 28.26) 0deg, rgb(205, 241, 49) 360deg);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  height: 493px;
+  justify-content: flex-start;
+  left: 0;
+  overflow: hidden;
+  padding: 0 69px;
+  position: absolute;
+  top: 757px;
+  width: 1280px;
+}
+
+.manu-site-ordinateur-all-breakpoints .overlap-group-8 {
+  height: 482px;
+  margin-bottom: -30.39px;
+  margin-left: 61px;
+  position: relative;
+  width: 1081px;
+}
+
+.manu-site-ordinateur-all-breakpoints .group-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 113px;
+  left: 20px;
+  min-height: 482px;
+  position: absolute;
+  top: 0;
+  width: 1061px;
+}
+
+.manu-site-ordinateur-all-breakpoints .title-2 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  align-self: flex-end;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(205, 241, 49) 0%, rgb(118.24, 139, 28.26) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-oswald);
+  font-size: 88px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4px;
+  min-height: 271px;
+  text-fill-color: transparent;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 427px;
+}
+
+.manu-site-ordinateur-all-breakpoints .x2025-crazy-pineapp-3 {
+  color: var(--white);
+  font-family: var(--font-family-original_surfer);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 98px;
+  text-align: center;
+  width: 1020px;
+}
+
+.manu-site-ordinateur-all-breakpoints .manu-logo-2-4 {
+  height: 331px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
   width: 343px;
 }
 
-.manu-site-ordinateur-all-breakpoints .rectangle-39-1 {
-  background-color: var(--alto);
-  height: 647px;
-  left: 22px;
-  position: absolute;
-  top: 126px;
-  width: 608px;
-}
-
-.manu-site-ordinateur-all-breakpoints .contact {
-  align-self: stretch;
-  height: 786.67px;
-  position: relative;
-  width: 100%;
-}
-
-.manu-site-ordinateur-all-breakpoints .overlap-group9-1 {
+.manu-site-ordinateur-all-breakpoints .overlap-group3-2 {
   height: 787px;
-  position: relative;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 1280px;
 }
 
@@ -1463,73 +1683,18 @@ transform: translate(0,0);
   width: 334px;
 }
 
-.manu-site-ordinateur-all-breakpoints .footer-2 {
-  align-items: center;
-  align-self: stretch;
-  background: conic-gradient(from 180deg at 50% 50%, rgb(118.24, 139, 28.26) 0deg, rgb(205, 241, 49) 360deg);
-  background-color: transparent;
+.manu-site-ordinateur-all {
   display: flex;
-  height: 493px;
-  justify-content: center;
-  position: relative;
-  width: 100%;
+  min-width: 1280px;
 }
 
-.manu-site-ordinateur-all-breakpoints .group-8 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 102px;
-  margin-left: 171px;
-  margin-top: -27.8px;
-  min-height: 471.18px;
-  width: 1089px;
-}
-
-.manu-site-ordinateur-all-breakpoints .flex-row-5 {
-  align-items: center;
-  display: flex;
-  gap: 402px;
-  height: 271px;
-  margin-right: 4.0px;
-  min-width: 1085px;
-}
-
-.manu-site-ordinateur-all-breakpoints .logo-5 {
-  height: 212px;
-  margin-bottom: 12.15px;
-  object-fit: cover;
-  width: 209px;
-}
-
-.manu-site-ordinateur-all-breakpoints .title-2 {
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-  background: radial-gradient(50% 50% at 50% 50%, rgb(205, 241, 49) 0%, rgb(118.24, 139, 28.26) 100%);
-  background-clip: text;
-  color: transparent;
-  font-family: var(--font-family-oswald);
-  font-size: 88px;
-  font-weight: 400;
+.manu-site-ordinateur-all-breakpoints .clic-sur-les-animaux {
   letter-spacing: 0;
   line-height: normal;
-  min-height: 271px;
-  text-fill-color: transparent;
-  text-shadow: 0px 4px 4px #00000040;
-  width: 474px;
-}
-
-.manu-site-ordinateur-all-breakpoints .x2025-crazy-pineapp-2 {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-right: 101.0px;
-  min-height: 98px;
+  position: absolute;
   text-align: center;
-  width: 798px;
+  top: 9px;
+  width: 477px;
 }
 
 .manu-site-ordinateur-all-breakpoints .flex-col {
@@ -1537,10 +1702,24 @@ transform: translate(0,0);
   flex-direction: column;
 }
 
+.manu-site-ordinateur-all-breakpoints .overlap-group2 {
+  border-radius: 33px;
+  position: relative;
+}
+
 .manu-site-ordinateur-all-breakpoints .rectangle {
   border-radius: 33px;
+  position: absolute;
+}
+
+.manu-site-ordinateur-all-breakpoints .rectangle-35 {
+  background-color: var(--trendy-green);
+  border-radius: 33px;
+  height: 145px;
   opacity: 0.55;
   position: absolute;
+  top: 0;
+  width: 733px;
 }
 /* screen - manu-site-tablette */
 
@@ -1554,35 +1733,42 @@ transform: translate(0,0);
   width: 834px;
 }
 
-.manu-site-tablette .overlap-group2-1 {
-  align-items: flex-start;
+.manu-site-tablette .overlap-group2-2 {
   background-image: url(../img/frame-35-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  display: flex;
   height: 638px;
-  min-width: 840px;
+  position: relative;
+  width: 840px;
 }
 
 .manu-site-tablette .navbar-1 {
+  align-items: center;
   background: linear-gradient(180deg, rgb(205, 241, 49) 0%, rgb(145.17, 170.66, 34.7) 68.96%, rgb(118.24, 139, 28.26) 100%);
   display: flex;
-  width: 836px;
+  gap: 19px;
+  height: 116px;
+  left: 0;
+  min-width: 836px;
+  padding: 0 11px;
+  position: absolute;
+  top: 0;
 }
 
 .manu-site-tablette .frame-38-1 {
+  align-items: center;
   display: flex;
   height: 116px;
-  margin-left: 11px;
+  justify-content: center;
   width: 256px;
 }
 
 .manu-site-tablette .httpslottiefilescoma-3 {
-  height: 70px;
-  margin-left: 12px;
-  margin-top: 7px;
+  height: 107px;
+  margin-left: -14px;
+  margin-top: 1px;
   object-fit: cover;
-  width: 79px;
+  width: 218px;
 }
 
 .manu-site-tablette .adventure-manu-husky-1 {
@@ -1590,21 +1776,21 @@ transform: translate(0,0);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxl);
   font-weight: 400;
-  height: 89px;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 19px;
-  margin-top: 14px;
+  margin-bottom: 1.0px;
+  min-height: 89px;
   text-shadow: 0px 4px 4px #00000040;
   width: 240px;
 }
 
-.manu-site-tablette .logo-2 {
-  height: 127px;
-  margin-left: 115px;
-  margin-top: -11px;
+.manu-site-tablette .manu-logo-2-2-1 {
+  height: 103px;
+  left: 662px;
   object-fit: cover;
-  width: 132px;
+  position: absolute;
+  top: 7px;
+  width: 103px;
 }
 
 .manu-site-tablette .about-1 {
@@ -1636,10 +1822,10 @@ transform: translate(0,0);
   width: 621px;
 }
 
-.manu-site-tablette .emmanuel-paingaud-1 {
+.manu-site-tablette .emmanuel-paingaud {
   color: var(--black);
   font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
   font-weight: 400;
   height: 451px;
   letter-spacing: 0;
@@ -1649,9 +1835,17 @@ transform: translate(0,0);
   width: 557px;
 }
 
-.manu-site-tablette .overlap-group1-2 {
-  height: 1796px;
+.manu-site-tablette .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   margin-left: -3px;
+  min-height: 2917px;
+  width: 837px;
+}
+
+.manu-site-tablette .overlap-group3 {
+  height: 2394px;
   position: relative;
   width: 837px;
 }
@@ -1681,6 +1875,53 @@ transform: translate(0,0);
   position: absolute;
   top: 1202px;
   width: 837px;
+}
+
+.manu-site-tablette .overlap-group-3 {
+  align-items: flex-end;
+  background-image: url(../img/1016837293082565358-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 137px;
+  height: 598px;
+  justify-content: flex-end;
+  left: 3px;
+  min-width: 834px;
+  padding: 100.9px 23px;
+  position: absolute;
+  top: 1796px;
+}
+
+.manu-site-tablette .rectangle-40-1 {
+  background-color: var(--alto);
+  height: 395px;
+  width: 243px;
+}
+
+.manu-site-tablette .reservation {
+  align-items: center;
+  background-color: var(--alto);
+  border-radius: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 395px;
+  justify-content: center;
+  position: relative;
+  width: 378px;
+}
+
+.manu-site-tablette .planifiez-votre-aven {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 343px;
 }
 
 .manu-site-tablette .x05-3 {
@@ -1725,23 +1966,29 @@ transform: translate(0,0);
 .manu-site-tablette .forfait-dcouverte-1 {
   color: transparent;
   font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-l);
+  font-size: 18px;
   font-weight: 400;
-  left: 442px;
+  left: 440px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 94px;
+  top: 87px;
   width: 308px;
 }
 
-.manu-site-tablette .span-3 {
+.manu-site-tablette .span0 {
   color: var(--trendy-green);
 }
 
-.manu-site-tablette .span2 {
+.manu-site-tablette .span2-1 {
   color: var(--coconut);
+  font-size: var(--font-size-m);
+}
+
+.manu-site-tablette .span3-1 {
+  color: var(--white);
+  font-size: var(--font-size-m);
 }
 
 .manu-site-tablette .rectangle-35 {
@@ -1849,15 +2096,15 @@ transform: translate(0,0);
   width: 250px;
 }
 
-.manu-site-tablette .span1 {
+.manu-site-tablette .span1-2 {
   color: var(--white);
 }
 
-.manu-site-tablette .span-5 {
+.manu-site-tablette .span-2 {
   color: var(--black);
 }
 
-.manu-site-tablette .apportez-des-essenti-1 {
+.manu-site-tablette .apportez-des-essenti {
   color: transparent;
   font-family: var(--font-family-original_surfer);
   font-size: 14px;
@@ -1886,10 +2133,6 @@ transform: translate(0,0);
 }
 
 .manu-site-tablette .choisissez-des-chaus-1 {
-  color: transparent;
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
   left: 555px;
   letter-spacing: 0;
   line-height: normal;
@@ -1897,6 +2140,13 @@ transform: translate(0,0);
   text-align: center;
   top: 752px;
   width: 216px;
+}
+
+.manu-site-tablette .span2-2 {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-l);
+  font-weight: 400;
 }
 
 .manu-site-tablette .hiboux-7 {
@@ -2024,7 +2274,7 @@ transform: translate(0,0);
   object-fit: cover;
   opacity: 0;
   position: absolute;
-  top: 1666px;
+  top: 1667px;
   transform: translate(0, 25px);
   transition: all 0.2s ease;
   width: 231px;
@@ -2069,58 +2319,6 @@ transform: translate(0,0);
   width: 79px;
 }
 
-.manu-site-tablette .overlap-group-container {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  min-height: 1121px;
-  width: 834px;
-}
-
-.manu-site-tablette .overlap-group-2 {
-  align-items: flex-end;
-  background-image: url(../img/1016837293082565358-1.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  display: flex;
-  gap: 137px;
-  height: 598px;
-  justify-content: flex-end;
-  min-width: 834px;
-  padding: 100.9px 23px;
-}
-
-.manu-site-tablette .rectangle-40-1 {
-  background-color: var(--alto);
-  height: 395px;
-  width: 243px;
-}
-
-.manu-site-tablette .reservation {
-  align-items: center;
-  background-color: var(--alto);
-  border-radius: 33px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 395px;
-  justify-content: center;
-  position: relative;
-  width: 378px;
-}
-
-.manu-site-tablette .planifiez-votre-aven {
-  color: var(--black);
-  font-family: var(--font-family-original_surfer);
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-  width: 343px;
-}
-
 .manu-site-tablette .overlap-group4-1 {
   align-items: center;
   background-image: url(../img/chiens-traineaux-montagnes-megeve-e1663678985384-1.png);
@@ -2130,13 +2328,15 @@ transform: translate(0,0);
   gap: 99px;
   height: 523px;
   justify-content: flex-end;
+  margin-left: 3px;
   min-width: 834px;
   padding: 0 22px;
 }
 
-.manu-site-tablette .rectangle-41-1 {
+.manu-site-tablette .rectangle-41 {
   background-color: var(--alto);
   height: 269px;
+  margin-top: 4.0px;
   width: 332px;
 }
 
@@ -2147,7 +2347,7 @@ transform: translate(0,0);
   width: 337px;
 }
 
-.manu-site-tablette .rectangle-41-2 {
+.manu-site-tablette .rectangle-41-1 {
   background-color: var(--alto);
   border-radius: 33px;
   height: 449px;
@@ -2175,24 +2375,24 @@ transform: translate(0,0);
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
-  gap: 27px;
+  gap: 32px;
   height: 348px;
   justify-content: flex-start;
-  padding: 24px 0;
+  padding: 14px 0;
   width: 834px;
 }
 
-.manu-site-tablette .flex-row-1 {
-  align-items: center;
+.manu-site-tablette .flex-row {
+  align-items: flex-end;
   display: flex;
-  gap: 206px;
-  min-width: 800px;
+  gap: 158px;
+  min-width: 759px;
 }
 
-.manu-site-tablette .logo-3 {
-  height: 185px;
+.manu-site-tablette .manu-logo-2-3 {
+  height: 190px;
   object-fit: cover;
-  width: 190px;
+  width: 197px;
 }
 
 .manu-site-tablette .title-1 {
@@ -2206,14 +2406,14 @@ transform: translate(0,0);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-bottom: 3.0px;
+  margin-bottom: 1px;
   min-height: 176px;
   text-fill-color: transparent;
   text-shadow: 0px 4px 4px #00000040;
   width: 404px;
 }
 
-.manu-site-tablette .x2025-crazy-pineapp-1 {
+.manu-site-tablette .x2025-crazy-pineapp-2 {
   align-self: center;
   color: var(--white);
   font-family: var(--font-family-oswald);

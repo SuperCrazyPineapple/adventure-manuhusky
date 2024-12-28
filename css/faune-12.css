@@ -17,166 +17,6 @@
   width: 1280px;
 }
 
-.faune-12 .orignal-2 {
-  align-items: center;
-  display: flex;
-  height: 232px;
-  justify-content: center;
-  left: 34px;
-  position: absolute;
-  top: 427px;
-  width: 256px;
-}
-
-.faune-12 .orignal-5 {
-  cursor: pointer;
-  display: block;
-  height: 223.9px;
-  margin-left: 0;
-  margin-top: 0;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 247.45px;
-}
-
-.faune-12 .orignal-5.animate-enter15 {
-  animation: animate-enter15-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter15-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-12 .orignal-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-12 .lapin-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 34px;
-  position: absolute;
-  top: 665px;
-  width: 240px;
-}
-
-.faune-12 .lapin-5 {
-  cursor: pointer;
-  display: block;
-  height: 222px;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 239.59px;
-}
-
-.faune-12 .lapin-5.animate-enter16 {
-  animation: animate-enter16-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter16-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-12 .lapin-5:hover {
-  transform: scale(1.1);
-}
-
-.faune-12 .renard-1 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 421px;
-  position: absolute;
-  top: 657px;
-  width: 394px;
-}
-
-.faune-12 .renard-3.animate-enter17 {
-  animation: animate-enter17-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter17-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-12 .renard-3:hover {
-  transform: scale(1.1);
-}
-
-.faune-12 .hiboux-2 {
-  align-items: center;
-  display: flex;
-  height: 222px;
-  justify-content: center;
-  left: 1001px;
-  position: absolute;
-  top: 311px;
-  width: 230px;
-}
-
-.faune-12 .hiboux-5 {
-  cursor: pointer;
-  display: block;
-  height: 222px;
-  margin-left: 0;
-  object-fit: cover;
-  opacity: 0;
-  transform: translate(0, 25px);
-  transition: all 0.2s ease;
-  width: 229.91px;
-}
-
-.faune-12 .hiboux-5.animate-enter18 {
-  animation: animate-enter18-frames 0.50s ease-in-out 0.20s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 25px);
-}
-
-@keyframes animate-enter18-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
-}
-
-.faune-12 .hiboux-5:hover {
-  transform: scale(1.1);
-}
-
 .faune-12 .rectangle-35 {
   background-color: var(--trendy-green);
   height: 145px;
@@ -204,39 +44,6 @@ transform: translate(0,0);
   width: 136px;
 }
 
-.faune-12 .hiboux-1 {
-  align-items: center;
-  display: flex;
-  height: 169px;
-  justify-content: center;
-  left: 48px;
-  position: absolute;
-  top: 110px;
-  width: 189px;
-}
-
-.faune-12 .hiboux-5-1 {
-  cursor: pointer;
-  height: 168px;
-  margin-top: -1px;
-  object-fit: cover;
-  transition: all 0.5s ease;
-  width: 153px;
-}
-
-.faune-12 .hiboux-5-1:hover {
-  transform: scale(1.1);
-}
-
-.faune-12 .adobe-stock_313333036-5 {
-  height: 129px;
-  left: 1069px;
-  object-fit: cover;
-  position: absolute;
-  top: 750px;
-  width: 162px;
-}
-
 .faune-12 .rectangle-54 {
   background-color: var(--alto);
   cursor: pointer;
@@ -255,6 +62,40 @@ transform: translate(0,0);
   text-align: center;
   top: 116px;
   width: 820px;
+}
+
+.faune-12 .orignal-5 {
+  cursor: pointer;
+  display: block;
+  height: 156px;
+  left: 894px;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 53px;
+  transform: translate(0, 25px);
+  transition: all 0.2s ease;
+  width: 172px;
+}
+
+.faune-12 .orignal-5.animate-enter5 {
+  animation: animate-enter5-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.faune-12 .orignal-5:hover {
+  transform: scale(1.1);
 }
 
 .faune-12 .rectangle {
