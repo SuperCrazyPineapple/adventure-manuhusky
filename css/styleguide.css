@@ -2,9 +2,11 @@
   --alto: #d9d9d9;
   --black: #000000;
   --coconut: #fdfdfd;
-  --solitude: #ebf2fc;
+  --eerie-black: #1e1e1e;
+  --laser-lemon: #f8fc15;
   --trendy-green: #768b1c;
   --white: #ffffff;
+  --white-2: #ffffff80;
  
   --font-size-l: 17px;
   --font-size-m: 15px;
@@ -14,6 +16,8 @@
   --font-size-xxxxl: 37px;
   --font-size-xxxxxl: 40px;
  
+  --font-family-kalnia-bold: "Kalnia-Bold", Helvetica;
+  --font-family-kalnia-regular: "Kalnia-Regular", Helvetica;
   --font-family-original_surfer: "Original Surfer", Helvetica;
   --font-family-oswald: "Oswald", Helvetica;
 }
@@ -71,14 +75,6 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-17px {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .originalsurfer-normal-white-33px-2 {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxl);
@@ -94,10 +90,10 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-19px {
-  color: var(--white);
+.originalsurfer-normal-laser-lemon-17px {
+  color: var(--laser-lemon);
   font-family: var(--font-family-original_surfer);
-  font-size: 19px;
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
@@ -118,7 +114,23 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-17px-2 {
+.originalsurfer-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.originalsurfer-normal-laser-lemon-19px {
+  color: var(--laser-lemon);
+  font-family: var(--font-family-original_surfer);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.originalsurfer-normal-white-17px {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-l);
   font-style: normal;
@@ -137,6 +149,29 @@
   color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kalnia-bold-white-44px {
+  font-family: var(--font-family-kalnia-bold);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kalnia-bold-white-33px {
+  color: var(--white);
+  font-family: var(--font-family-kalnia-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kalnia-regular-normal-eerie-black-33px {
+  color: var(--eerie-black);
+  font-family: var(--font-family-kalnia-regular);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 400;
 }

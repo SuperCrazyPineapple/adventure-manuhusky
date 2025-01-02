@@ -40,14 +40,14 @@
   width: 332.84px;
 }
 
-.faune-6 .orignal-5.animate-enter14 {
-  animation: animate-enter14-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-6 .orignal-5.animate-enter12 {
+  animation: animate-enter12-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter14-frames {
+@keyframes animate-enter12-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }

@@ -40,3 +40,42 @@
 * {
   box-sizing: border-box;
 }
+
+.rectangle-19 {
+  background-color: var(--alto);
+  border-radius: 33px;
+  height: 120px;
+  left: 0;
+  opacity: 0.66;
+  position: absolute;
+  top: 0;
+  width: 302px;
+}
+
+.dtails {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 148px;
+}
+
+.line-6 {
+  margin-left: 22px;
+}
+
+.line-7 {
+  margin-left: 18px;
+}
+
+.line-8 {
+  margin-left: 17px;
+}
+
+.line {
+  height: 5px;
+  margin-top: -5px;
+  width: 77px;
+}
