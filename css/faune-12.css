@@ -78,14 +78,14 @@
   width: 172px;
 }
 
-.faune-12 .orignal-5.animate-enter5 {
-  animation: animate-enter5-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-12 .orignal-5.animate-enter7 {
+  animation: animate-enter7-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter5-frames {
+@keyframes animate-enter7-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }

@@ -40,14 +40,14 @@
   width: 332.84px;
 }
 
-.faune-32 .orignal-5.animate-enter13 {
-  animation: animate-enter13-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-32 .orignal-5.animate-enter10 {
+  animation: animate-enter10-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter13-frames {
+@keyframes animate-enter10-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -106,14 +106,14 @@ transform: translate(0,0);
   width: 229.91px;
 }
 
-.faune-32 .hiboux-5.animate-enter14 {
-  animation: animate-enter14-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-32 .hiboux-5.animate-enter11 {
+  animation: animate-enter11-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter14-frames {
+@keyframes animate-enter11-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }

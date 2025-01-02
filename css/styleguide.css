@@ -60,15 +60,15 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-trendy-green-15px {
-  color: var(--trendy-green);
+.originalsurfer-normal-white-15px {
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
 
-.originalsurfer-normal-white-15px {
+.originalsurfer-normal-trendy-green-15px {
+  color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -90,10 +90,10 @@
   font-weight: 400;
 }
 
-.originalsurfer-normal-laser-lemon-17px {
+.originalsurfer-normal-laser-lemon-15px {
   color: var(--laser-lemon);
   font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -110,22 +110,6 @@
   color: var(--trendy-green);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.originalsurfer-normal-black-13px {
-  color: var(--black);
-  font-family: var(--font-family-original_surfer);
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.originalsurfer-normal-laser-lemon-19px {
-  color: var(--laser-lemon);
-  font-family: var(--font-family-original_surfer);
-  font-size: 19px;
   font-style: normal;
   font-weight: 400;
 }

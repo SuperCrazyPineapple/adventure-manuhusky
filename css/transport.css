@@ -1,0 +1,83 @@
+/* screen - transport */
+
+.transport {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 746px;
+  overflow: hidden;
+  width: 392px;
+}
+
+.transport .overlap-group1 {
+  align-items: center;
+  background-image: url(../img/pexels-songhanphoto-10893500-1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 746px;
+  padding: 41px 13px;
+  width: 403px;
+}
+
+.transport .overlap-group {
+  border-radius: 33px;
+  height: 120px;
+  margin-right: 13.0px;
+  position: relative;
+  width: 302px;
+}
+
+.transport .title {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(119, 32, 20) 100%);
+  background-clip: text;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-fill-color: transparent;
+  top: 0;
+  width: 275px;
+}
+
+.transport .transport-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4.0px;
+  margin-top: 198px;
+  min-height: 66px;
+  text-align: center;
+  width: 341px;
+}
+
+.transport .overlap-group2 {
+  height: 55px;
+  margin-right: 11.0px;
+  margin-top: 169px;
+  position: relative;
+  width: 148px;
+}
+
+.transport .ellipse-2 {
+  background-color: var(--white-2);
+  border-radius: 70px/22px;
+  height: 44px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 140px;
+}
+
+.transport .ligne {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 1px;
+  margin-top: 42px;
+  min-width: 365px;
+}

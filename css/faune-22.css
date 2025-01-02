@@ -40,14 +40,14 @@
   width: 332.84px;
 }
 
-.faune-22 .orignal-5.animate-enter6 {
-  animation: animate-enter6-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-22 .orignal-5.animate-enter8 {
+  animation: animate-enter8-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter6-frames {
+@keyframes animate-enter8-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }
@@ -131,14 +131,14 @@ transform: translate(0,0);
   width: 181px;
 }
 
-.faune-22 .lapin-5.animate-enter7 {
-  animation: animate-enter7-frames 0.50s ease-in-out 0.20s 1 normal forwards;
+.faune-22 .lapin-5.animate-enter9 {
+  animation: animate-enter9-frames 0.50s ease-in-out 0.20s 1 normal forwards;
   display: block;
   opacity: 0;
   transform: translate(0, 25px);
 }
 
-@keyframes animate-enter7-frames {
+@keyframes animate-enter9-frames {
   from{opacity: 0;
 transform: translate(0, 25px);
 }

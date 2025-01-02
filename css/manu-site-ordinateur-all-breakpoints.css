@@ -25,6 +25,16 @@
   width: 389px;
 }
 
+.iphone-13-u38-14-1 .video-accueil video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.iphone-13-u38-14-1 .video-accueil img {
+  object-fit: cover;
+}
+
 .iphone-13-u38-14-1 .navbar {
   align-items: flex-start;
   background: linear-gradient(180deg, rgb(205, 241, 49) 0%, rgb(145.17, 170.66, 34.7) 68.96%, rgb(118.24, 139, 28.26) 100%);
@@ -32,20 +42,20 @@
   height: 86px;
   left: 0;
   min-width: 390px;
-  opacity: 100;
+  opacity: 0.9;
   position: fixed;
   top: 0;
   z-index: 6;
 }
 
-.iphone-13-u38-14-1 .overlap-group6 {
+.iphone-13-u38-14-1 .overlap-group7 {
   height: 86px;
   position: relative;
   width: 393px;
 }
 
 .iphone-13-u38-14-1 .frame-38 {
-  gap: 27px;
+  gap: 13px;
   height: 86px;
   width: 393px;
 }
@@ -99,7 +109,7 @@
   width: 390px;
 }
 
-.iphone-13-u38-14-1 .overlap-group4 {
+.iphone-13-u38-14-1 .overlap-group5 {
   height: 520px;
   margin-left: 1px;
   position: relative;
@@ -107,20 +117,31 @@
 }
 
 .iphone-13-u38-14-1 .avec-plus-de-30-ans {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 25.57%, rgb(248.18, 252.01, 21.84) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-original_surfer);
+  font-size: 13px;
+  font-weight: 400;
   left: 31px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
+  text-fill-color: transparent;
   top: 260px;
   width: 326px;
 }
 
+.iphone-13-u38-14-1 .span0 {
+  color: var(--black);
+}
+
 .iphone-13-u38-14-1 .span1 {
   color: var(--black);
-  font-family: var(--font-family-original_surfer);
   font-size: 16px;
-  font-weight: 400;
 }
 
 .iphone-13-u38-14-1 .frame-39 {
@@ -148,7 +169,7 @@
   width: 390px;
 }
 
-.iphone-13-u38-14-1 .overlap-group5 {
+.iphone-13-u38-14-1 .overlap-group6 {
   align-items: flex-start;
   background-image: url(../img/https---lottiefiles-com-animations-paw-prints-ojpe7skayk-1.gif);
   background-position: 50% 50%;
@@ -161,6 +182,10 @@
 }
 
 .iphone-13-u38-14-1 .name {
+  color: var(--laser-lemon);
+  font-family: var(--font-family-original_surfer);
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
   min-height: 74px;
@@ -168,7 +193,7 @@
   width: 330px;
 }
 
-.iphone-13-u38-14-1 .overlap-group8 {
+.iphone-13-u38-14-1 .overlap-group9 {
   height: 1324px;
   margin-left: -25px;
   position: relative;
@@ -176,50 +201,37 @@
   z-index: 3;
 }
 
-.iphone-13-u38-14-1 .overlap-group-container {
-  align-items: flex-start;
+.iphone-13-u38-14-1 .overlap-group4 {
   background-image: url(../img/whatsapp-image-2024-12-29---09-34-09-44230c99-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  gap: 11px;
+  height: 588px;
   left: 25px;
-  min-height: 588px;
-  padding: 15.0px 18px;
   position: absolute;
   top: 744px;
   width: 389px;
 }
 
-.iphone-13-u38-14-1 .overlap-group1 {
-  height: 395px;
-  position: relative;
-  width: 346px;
-}
-
 .iphone-13-u38-14-1 .habillez {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 19px;
-  left: 0;
-  min-height: 395px;
+  gap: 13px;
+  left: 47px;
+  min-height: 392px;
   position: absolute;
-  top: 0;
-  width: 346px;
+  top: 33px;
+  width: 315px;
 }
 
 .iphone-13-u38-14-1 .rectangle-36 {
-  height: 66px;
-  margin-right: 2.0px;
-  width: 344px;
+  height: 54px;
+  margin-left: 4px;
+  width: 309px;
 }
 
 .iphone-13-u38-14-1 .overlap-group {
-  border-radius: 33px;
-  height: 310px;
-  margin-left: 18.0px;
+  height: 324px;
   position: relative;
   width: 306px;
 }
@@ -236,59 +248,44 @@
 }
 
 .iphone-13-u38-14-1 .habillez-vous-pour-a {
-  left: 8px;
+  left: 11px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 8px;
+  top: 23px;
   width: 277px;
 }
 
-.iphone-13-u38-14-1 .span2 {
-  color: var(--white);
-  font-family: var(--font-family-original_surfer);
-  font-size: var(--font-size-m);
-  font-weight: 400;
-}
-
 .iphone-13-u38-14-1 .conseils-et-astuces {
-  left: 10px;
+  left: 66px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 13px;
-  width: 334px;
-}
-
-.iphone-13-u38-14-1 .overlap-group2 {
-  align-self: flex-end;
-  height: 144px;
-  margin-right: 18px;
-  position: relative;
-  width: 306px;
+  top: 40px;
+  width: 275px;
 }
 
 .iphone-13-u38-14-1 .rectangle-42 {
   height: 143px;
-  left: 0;
+  left: 47px;
   position: absolute;
-  top: 1px;
+  top: 422px;
   width: 306px;
 }
 
 .iphone-13-u38-14-1 .choisissez-des-chaus {
-  left: 2px;
+  left: 51px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 0;
+  top: 414px;
   width: 292px;
 }
 
-.iphone-13-u38-14-1 .span0 {
+.iphone-13-u38-14-1 .span0-1 {
   color: var(--white);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-l);
@@ -375,8 +372,9 @@
 }
 
 .iphone-13-u38-14-1 .forfait-1 {
-  height: 648px;
+  height: 640px;
   margin-left: 2px;
+  margin-top: -8px;
   opacity: 0;
   transform: translate(25px, 0);
   width: 404px;
@@ -389,22 +387,19 @@
 }
 
 @keyframes bp1-animate-enter-frames {
-  from {
-    opacity: 0;
-    transform: translate(25px, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .iphone-13-u38-14-1 .overlap-group-1 {
   background-image: url(../img/whatsapp-image-2024-12-29---11-13-03-0990b70f-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 648px;
+  height: 640px;
   left: 13px;
   position: relative;
   width: 389px;
@@ -413,11 +408,11 @@
 .iphone-13-u38-14-1 .rectangle-44 {
   background-color: var(--alto);
   border-radius: 33px;
-  height: 529px;
+  height: 522px;
   left: 28px;
   opacity: 0.55;
   position: absolute;
-  top: 50px;
+  top: 49px;
   width: 335px;
 }
 
@@ -427,8 +422,15 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 63px;
+  top: 62px;
   width: 335px;
+}
+
+.iphone-13-u38-14-1 .span1-1 {
+  color: var(--black);
+  font-family: var(--font-family-original_surfer);
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .iphone-13-u38-14-1 .span3 {
@@ -438,20 +440,27 @@
   font-weight: 400;
 }
 
-.iphone-13-u38-14-1 .overlap-group9 {
-  height: 434px;
+.iphone-13-u38-14-1 .span4 {
+  color: var(--laser-lemon);
+  font-family: var(--font-family-original_surfer);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+}
+
+.iphone-13-u38-14-1 .overlap-group10 {
+  height: 427px;
   margin-left: -5px;
-  margin-top: 1px;
+  margin-top: 8px;
   position: relative;
   width: 403px;
   z-index: 2;
 }
 
-.iphone-13-u38-14-1 .overlap-group2-1 {
+.iphone-13-u38-14-1 .overlap-group2 {
   height: 342px;
   left: 0;
   position: absolute;
-  top: 92px;
+  top: 85px;
   width: 399px;
 }
 
@@ -558,31 +567,39 @@
 }
 
 .iphone-13-u38-14-1 .baniere-animaux {
+  align-items: flex-start;
   background-color: var(--trendy-green);
-  height: 94px;
+  height: 87px;
   left: 0;
+  padding: 7px 19px;
   top: 0;
   width: 403px;
 }
 
+.iphone-13-u38-14-1 .anima-container {
+  height: 71px;
+  margin-left: 24px;
+  position: relative;
+  width: 341px;
+}
+
 .iphone-13-u38-14-1 .clic-sur-les-animaux {
-  height: 84px;
+  left: 0;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 32px;
-  margin-top: 4px;
+  position: absolute;
   text-align: center;
+  top: 7px;
   width: 251px;
 }
 
 .iphone-13-u38-14-1 .httpslottiefilescoma-1 {
-  height: 71px;
-  margin-top: 7px;
-  object-fit: cover;
-  width: 101px;
+  left: 240px;
+  position: absolute;
+  top: 0;
 }
 
-.iphone-13-u38-14-1 .overlap-group7 {
+.iphone-13-u38-14-1 .overlap-group8 {
   height: 934px;
   margin-left: -5px;
   position: relative;
@@ -590,7 +607,7 @@
   z-index: 1;
 }
 
-.iphone-13-u38-14-1 .overlap-group1-1 {
+.iphone-13-u38-14-1 .overlap-group1 {
   align-items: center;
   background-image: url(../img/whatsapp-image-2024-12-29---08-49-17-72124947-1-1.png);
   background-position: 50% 50%;
@@ -643,7 +660,7 @@
 .iphone-13-u38-14-1 .baniere-comment-nous-trouver {
   background-color: var(--trendy-green);
   display: flex;
-  gap: 14px;
+  gap: 35px;
   height: 83px;
   left: 0;
   position: absolute;
@@ -652,20 +669,17 @@
 }
 
 .iphone-13-u38-14-1 .comment-nous-trouver {
-  height: 24px;
+  height: 19px;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 35px;
+  margin-left: 64px;
   margin-top: 29px;
   text-align: center;
-  width: 230px;
+  width: 182px;
 }
 
 .iphone-13-u38-14-1 .httpslottiefilescoma-2 {
-  height: 64px;
-  margin-top: 16px;
-  object-fit: cover;
-  width: 64px;
+  margin-top: 3px;
 }
 
 .iphone-13-u38-14-1 .footer {
@@ -742,6 +756,11 @@
   top: 0;
 }
 
+.iphone-13-u38-14-1 .httpslottiefilescoma-3 {
+  height: 71px;
+  object-fit: cover;
+  width: 101px;
+}
 /* screen - manu-site-ordinateur-all-breakpoints */
 
 .manu-site-ordinateur-all-breakpoints {
@@ -776,7 +795,7 @@
   padding: 50px 0;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group2-3 {
+.manu-site-ordinateur-all-breakpoints .overlap-group2-2 {
   height: 726px;
   width: 912px;
 }
@@ -810,7 +829,7 @@
   width: 820px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group1-2 {
+.manu-site-ordinateur-all-breakpoints .overlap-group1-1 {
   align-self: flex-end;
   height: 142px;
   margin-bottom: 89.07px;
@@ -849,15 +868,12 @@
 }
 
 @keyframes bp3-animate-enter-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .orignal-5:hover {
@@ -952,13 +968,13 @@
   width: 700px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group-container-2 {
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-1 {
   height: 3671px;
   position: relative;
   width: 1280px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group-container-3 {
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-2 {
   height: 2760px;
   left: 0;
   position: absolute;
@@ -1095,15 +1111,12 @@
 }
 
 @keyframes bp3-animate-enter1-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .orignal-5-1:hover {
@@ -1140,15 +1153,12 @@
 }
 
 @keyframes bp3-animate-enter2-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .lapin-5:hover {
@@ -1216,15 +1226,12 @@
 }
 
 @keyframes bp3-animate-enter4-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .hiboux-5-1:hover {
@@ -1267,15 +1274,12 @@
 }
 
 @keyframes bp3-animate-enter3-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .renard-3:hover {
@@ -1370,14 +1374,14 @@
   width: 818px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group-container-4 {
+.manu-site-ordinateur-all-breakpoints .overlap-group-container-3 {
   align-items: flex-start;
   display: flex;
   gap: 61px;
   min-width: 818px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group2-4 {
+.manu-site-ordinateur-all-breakpoints .overlap-group2-3 {
   height: 382px;
   width: 399px;
 }
@@ -1401,7 +1405,7 @@
   width: 350px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span1-2 {
+.manu-site-ordinateur-all-breakpoints .span1-3 {
   color: var(--black);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-xxl);
@@ -1427,7 +1431,7 @@
   width: 295px;
 }
 
-.manu-site-ordinateur-all-breakpoints .overlap-group1-3 {
+.manu-site-ordinateur-all-breakpoints .overlap-group1-2 {
   border-radius: 33px;
   height: 253px;
   margin-left: 1px;
@@ -1454,7 +1458,7 @@
   width: 749px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span2-3 {
+.manu-site-ordinateur-all-breakpoints .span2-2 {
   color: var(--white);
   font-family: var(--font-family-original_surfer);
   font-size: 22px;
@@ -1495,15 +1499,12 @@
 }
 
 @keyframes bp3-animate-enter5-frames {
-  from {
-    opacity: 0;
-    transform: translate(25px, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-ordinateur-all-breakpoints .overlap-group-7 {
@@ -1535,16 +1536,16 @@
   width: 523px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span0-3 {
+.manu-site-ordinateur-all-breakpoints .span0-4 {
   color: var(--trendy-green);
 }
 
-.manu-site-ordinateur-all-breakpoints .span1-3 {
+.manu-site-ordinateur-all-breakpoints .span1-4 {
   color: var(--black);
   font-size: 25px;
 }
 
-.manu-site-ordinateur-all-breakpoints .span2-4 {
+.manu-site-ordinateur-all-breakpoints .span2-3 {
   color: var(--coconut);
   font-size: 25px;
 }
@@ -1742,7 +1743,6 @@
   top: 0;
   width: 733px;
 }
-
 /* screen - manu-site-tablette */
 
 .manu-site-tablette {
@@ -1755,7 +1755,7 @@
   width: 834px;
 }
 
-.manu-site-tablette .overlap-group2-2 {
+.manu-site-tablette .overlap-group2-1 {
   background-image: url(../img/frame-35-1.png);
   background-position: 50% 50%;
   background-size: cover;
@@ -1857,7 +1857,7 @@
   width: 557px;
 }
 
-.manu-site-tablette .overlap-group-container-1 {
+.manu-site-tablette .overlap-group-container {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1966,15 +1966,12 @@
 }
 
 @keyframes bp2-animate-enter-frames {
-  from {
-    opacity: 0;
-    transform: translate(25px, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-tablette .rectangle-30 {
@@ -2002,11 +1999,11 @@
   width: 308px;
 }
 
-.manu-site-tablette .span0-1 {
+.manu-site-tablette .span0-2 {
   color: var(--trendy-green);
 }
 
-.manu-site-tablette .span2-1 {
+.manu-site-tablette .span2 {
   color: var(--coconut);
   font-size: var(--font-size-m);
 }
@@ -2167,14 +2164,14 @@
   width: 216px;
 }
 
-.manu-site-tablette .span0-2 {
+.manu-site-tablette .span0-3 {
   color: var(--white);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-l);
   font-weight: 400;
 }
 
-.manu-site-tablette .span2-2 {
+.manu-site-tablette .span2-1 {
   color: var(--black);
   font-family: var(--font-family-original_surfer);
   font-size: var(--font-size-l);
@@ -2218,15 +2215,12 @@
 }
 
 @keyframes bp2-animate-enter1-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-tablette .orignal-6:hover {
@@ -2255,15 +2249,12 @@
 }
 
 @keyframes bp2-animate-enter2-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-tablette .lapin-7:hover {
@@ -2292,15 +2283,12 @@
 }
 
 @keyframes bp2-animate-enter3-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-tablette .hiboux-7-1:hover {
@@ -2329,15 +2317,12 @@
 }
 
 @keyframes bp2-animate-enter4-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
 }
 
 .manu-site-tablette .renard-4:hover {
@@ -2470,33 +2455,27 @@
   text-align: center;
   width: 695px;
 }
-
 @media screen and (max-width: 833px) {
-  .screen.manu-site-tablette {
+  .screen.manu-site-tablette { 
     display: none;
-  }
-
-  .screen.manu-site-ordinateur-all-breakpoints {
+   }
+  .screen.manu-site-ordinateur-all-breakpoints { 
     display: none;
-  }
+   }
 }
-
 @media screen and (min-width: 834px) and (max-width: 1279px) {
-  .screen.iphone-13-u38-14-1 {
+  .screen.iphone-13-u38-14-1 { 
     display: none;
-  }
-
-  .screen.manu-site-ordinateur-all-breakpoints {
+   }
+  .screen.manu-site-ordinateur-all-breakpoints { 
     display: none;
-  }
+   }
 }
-
 @media screen and (min-width: 1280px) {
-  .screen.iphone-13-u38-14-1 {
+  .screen.iphone-13-u38-14-1 { 
     display: none;
-  }
-
-  .screen.manu-site-tablette {
+   }
+  .screen.manu-site-tablette { 
     display: none;
-  }
+   }
 }
