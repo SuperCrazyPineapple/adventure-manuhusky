@@ -387,12 +387,15 @@
 }
 
 @keyframes bp1-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .iphone-13-u38-14-1 .overlap-group-1 {
@@ -761,6 +764,7 @@ transform: translate(0,0);
   object-fit: cover;
   width: 101px;
 }
+
 /* screen - manu-site-ordinateur-all-breakpoints */
 
 .manu-site-ordinateur-all-breakpoints {
@@ -868,12 +872,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .orignal-5:hover {
@@ -1111,12 +1118,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter1-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .orignal-5-1:hover {
@@ -1153,12 +1163,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .lapin-5:hover {
@@ -1226,12 +1239,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter4-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .hiboux-5-1:hover {
@@ -1274,12 +1290,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .renard-3:hover {
@@ -1499,12 +1518,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp3-animate-enter5-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-ordinateur-all-breakpoints .overlap-group-7 {
@@ -1743,6 +1765,7 @@ transform: translate(0,0);
   top: 0;
   width: 733px;
 }
+
 /* screen - manu-site-tablette */
 
 .manu-site-tablette {
@@ -1966,12 +1989,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp2-animate-enter-frames {
-  from{opacity: 0;
-transform: translate(25px, 0);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-tablette .rectangle-30 {
@@ -2215,12 +2241,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp2-animate-enter1-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-tablette .orignal-6:hover {
@@ -2249,12 +2278,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp2-animate-enter2-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-tablette .lapin-7:hover {
@@ -2283,12 +2315,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp2-animate-enter3-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-tablette .hiboux-7-1:hover {
@@ -2317,12 +2352,15 @@ transform: translate(0,0);
 }
 
 @keyframes bp2-animate-enter4-frames {
-  from{opacity: 0;
-transform: translate(0, 25px);
-}
-to{opacity: 1;
-transform: translate(0,0);
-}
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 .manu-site-tablette .renard-4:hover {
@@ -2455,27 +2493,63 @@ transform: translate(0,0);
   text-align: center;
   width: 695px;
 }
+
 @media screen and (max-width: 833px) {
-  .screen.manu-site-tablette { 
+  .screen.manu-site-tablette {
     display: none;
-   }
-  .screen.manu-site-ordinateur-all-breakpoints { 
+  }
+
+  .screen.manu-site-ordinateur-all-breakpoints {
     display: none;
-   }
+  }
 }
+
 @media screen and (min-width: 834px) and (max-width: 1279px) {
-  .screen.iphone-13-u38-14-1 { 
+  .screen.iphone-13-u38-14-1 {
     display: none;
-   }
-  .screen.manu-site-ordinateur-all-breakpoints { 
+  }
+
+  .screen.manu-site-ordinateur-all-breakpoints {
     display: none;
-   }
+  }
 }
+
 @media screen and (min-width: 1280px) {
-  .screen.iphone-13-u38-14-1 { 
+  .screen.iphone-13-u38-14-1 {
     display: none;
-   }
-  .screen.manu-site-tablette { 
+  }
+
+  .screen.manu-site-tablette {
     display: none;
-   }
+  }
+}
+
+/* Style pour la bulle de chat */
+.chat-bubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0078FF;
+  border-radius: 50%;
+  padding: 65px;
+  /* Augmenter le padding pour rendre la bulle 50px plus haute */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.chat-bubble img {
+  width: 50px;
+  /* Augmenter la taille de l'icône */
+  height: 50px;
+  /* Augmenter la taille de l'icône */
+}
+
+.chat-bubble a {
+  color: white;
+  text-decoration: none;
+}
+
+.chat-bubble:hover {
+  cursor: pointer;
+  background-color: #005bb5;
 }
